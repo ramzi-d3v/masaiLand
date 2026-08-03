@@ -1,0 +1,549 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+/*
+  ---break---
+*/
+@custom-variant dark (&:is(.dark *));
+
+/*
+  MASAILAND SAFARI & LODGE - DESIGN TOKENS
+  ----------------------------------------
+  Palette:
+    - paper     : pale sage, taken from the lodge's clipped-topiary gardens
+    - basalt    : near-black with a cool green cast, Meru forest at dusk
+  Monochrome only, by request: no gold or brown accent anywhere. Every button
+  and label is an outline (transparent fill, a border, text in the current
+  colour), in basalt on paper and in paper over photography. `brand`/
+  `brand-deep`/`brand-ink` stay defined as plain basalt so any class that
+  still references them renders black rather than breaking, but nothing new
+  should be built against them — reach for basalt/paper directly instead.
+  Indigo is a surface tint and never a CTA, link, or state.
+
+  Radius rule (locked, applied everywhere):
+    surfaces / media / cards ... 20px  (--r-surface)
+    inputs and small fields  ... 12px  (--r-field)
+    interactive controls     ... pill  (--r-control)
+*/
+
+:root {
+  --paper: #eff1ec;
+  --paper-raised: #e4e7e0;
+  --paper-deep: #d7dbd2;
+
+  --basalt: #171a19;
+  --basalt-raised: #232825;
+  --basalt-line: #343b37;
+
+  /* Kept only as a safety net for any stray reference — see note above. */
+  --brand: #171a19;
+  --brand-deep: #000000;
+  --brand-ink: #171a19;
+  /* Semantic, not decorative. Errors must not read as the brand brown, and a
+     confirmed payment has to read as confirmed rather than as another shade of
+     basalt. These two are the only colours allowed outside the monochrome
+     palette, and only ever for state. */
+  --danger: #a32b1c;
+  --success: #2f7d4f;
+  --success-soft: #e8f2ea;
+  --indigo: #2e3a56;
+
+  --sage: #66705f;
+  --sage-soft: #8b9384;
+
+  /* Sampled from the wordmark itself (public/brand/logo-masailand.png), for
+     the one admin control that asked for the logo's actual brown rather than
+     the monochrome palette: the selected range in the date-range calendar. */
+  --logo-brown: #5b2a17;
+
+  --r-surface: 20px;
+  --r-field: 12px;
+  --r-control: 999px;
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+
+  --background: oklch(1 0 0);
+
+  --foreground: oklch(0.145 0 0);
+
+  --card: oklch(1 0 0);
+
+  --card-foreground: oklch(0.145 0 0);
+
+  --popover: oklch(1 0 0);
+
+  --popover-foreground: oklch(0.145 0 0);
+
+  --primary: oklch(0.205 0 0);
+
+  --primary-foreground: oklch(0.985 0 0);
+
+  --secondary: oklch(0.97 0 0);
+
+  --secondary-foreground: oklch(0.205 0 0);
+
+  --muted: oklch(0.97 0 0);
+
+  --muted-foreground: oklch(0.556 0 0);
+
+  --accent: oklch(0.97 0 0);
+
+  --accent-foreground: oklch(0.205 0 0);
+
+  --destructive: oklch(0.577 0.245 27.325);
+
+  --border: oklch(0.922 0 0);
+
+  --input: oklch(0.922 0 0);
+
+  --ring: oklch(0.708 0 0);
+
+  --chart-1: oklch(0.87 0 0);
+
+  --chart-2: oklch(0.556 0 0);
+
+  --chart-3: oklch(0.439 0 0);
+
+  --chart-4: oklch(0.371 0 0);
+
+  --chart-5: oklch(0.269 0 0);
+
+  --radius: 0.625rem;
+
+  --sidebar: oklch(0.985 0 0);
+
+  --sidebar-foreground: oklch(0.145 0 0);
+
+  --sidebar-primary: oklch(0.205 0 0);
+
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+
+  --sidebar-accent: oklch(0.97 0 0);
+
+  --sidebar-accent-foreground: oklch(0.205 0 0);
+
+  --sidebar-border: oklch(0.922 0 0);
+
+  --sidebar-ring: oklch(0.708 0 0);
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper-raised: var(--paper-raised);
+  --color-paper-deep: var(--paper-deep);
+  --color-basalt: var(--basalt);
+  --color-basalt-raised: var(--basalt-raised);
+  --color-basalt-line: var(--basalt-line);
+  --color-brand: var(--brand);
+  --color-brand-deep: var(--brand-deep);
+  --color-brand-ink: var(--brand-ink);
+  --color-danger: var(--danger);
+  --color-success: var(--success);
+  --color-success-soft: var(--success-soft);
+  --color-indigo: var(--indigo);
+  --color-sage: var(--sage);
+  --color-sage-soft: var(--sage-soft);
+
+  --font-display: var(--font-title);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  --radius-surface: var(--r-surface);
+  --radius-field: var(--r-field);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-foreground: var(--foreground);
+  --color-background: var(--background);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--paper);
+  color: var(--basalt);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Titles: Dx Nacky Light. A fine-stroked display cut, so it is never set
+   below 1.5rem and never used for body copy. */
+.font-display {
+  font-family: var(--font-title), var(--font-heading), var(--font-newsreader), Georgia, serif;
+  font-weight: 300;
+  letter-spacing: -0.005em;
+}
+
+/* Small caps utility label. Rationed - see the eyebrow budget. */
+.label {
+  font-family: var(--font-geist-mono), ui-monospace, monospace;
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+/* Keyboard focus is always visible and always brand. */
+/* currentColor keeps the focus ring legible on paper and on basalt alike. */
+:where(a, button, input, select, textarea, [tabindex]):focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+::selection {
+  background: var(--brand);
+  color: var(--brand-ink);
+}
+
+/* Masked line reveal. Each headline line sits in a clipping box so the words
+   can roll up from below without bleeding into the line above. */
+.rl {
+  display: block;
+  overflow: hidden;
+  padding-bottom: 0.16em; /* descender clearance for the italic accent */
+}
+.rl > span {
+  display: inline-block;
+  will-change: transform;
+}
+
+/* Emphasis uses Dx Nacky's own medium italic, so it never leaves the family.
+   Monochrome only: the italic carries the emphasis, not a colour change, so
+   it always matches whatever colour the rest of the headline is already
+   set in (paper on dark, basalt on paper). */
+.font-display em,
+.font-hero em {
+  font-style: italic;
+  font-weight: 500;
+  color: inherit;
+}
+
+/* The hero runs the same Dx Nacky as the titles, one size band larger. */
+.font-hero {
+  font-family: var(--font-title), var(--font-heading), var(--font-newsreader), Georgia, serif;
+  font-weight: 300;
+  letter-spacing: -0.01em;
+}
+
+/*
+  Navigation panels. All three share one viewport, so moving between triggers
+  slides the outgoing contents away and the incoming ones in from the side the
+  visitor came from, while the tray itself morphs to the new size. Radix sets
+  data-motion for the direction and data-state for the first open and last
+  close, which get a plain fade instead.
+*/
+@keyframes navEnterFromRight {
+  from { opacity: 0; transform: translateX(56px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+@keyframes navEnterFromLeft {
+  from { opacity: 0; transform: translateX(-56px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+@keyframes navExitToRight {
+  from { opacity: 1; transform: translateX(0); }
+  to   { opacity: 0; transform: translateX(56px); }
+}
+@keyframes navExitToLeft {
+  from { opacity: 1; transform: translateX(0); }
+  to   { opacity: 0; transform: translateX(-56px); }
+}
+@keyframes navTrayIn {
+  from { opacity: 0; transform: scale(0.96) translateY(-6px); }
+  to   { opacity: 1; transform: scale(1) translateY(0); }
+}
+@keyframes navTrayOut {
+  from { opacity: 1; transform: scale(1) translateY(0); }
+  to   { opacity: 0; transform: scale(0.96) translateY(-6px); }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .nav-panel[data-motion="from-start"] { animation: navEnterFromLeft 520ms var(--ease-out); }
+  .nav-panel[data-motion="from-end"]   { animation: navEnterFromRight 520ms var(--ease-out); }
+  .nav-panel[data-motion="to-start"]   { animation: navExitToLeft 440ms var(--ease-out); }
+  .nav-panel[data-motion="to-end"]     { animation: navExitToRight 440ms var(--ease-out); }
+
+  .nav-viewport[data-state="open"]   { animation: navTrayIn 420ms var(--ease-out); }
+  .nav-viewport[data-state="closed"] { animation: navTrayOut 320ms var(--ease-out); }
+}
+
+/*
+  The gallery strip and the trust-logo belt both slide on this same
+  keyframe, each at its own speed. The track in both holds two identical
+  halves, so translating exactly -50% lands on a frame indistinguishable
+  from the start and the loop never visibly cuts.
+*/
+@keyframes stripSlide {
+  from { transform: translate3d(0, 0, 0); }
+  to   { transform: translate3d(-50%, 0, 0); }
+}
+
+.strip-track,
+.trust-track {
+  will-change: transform;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .strip-track {
+    animation: stripSlide 64s linear infinite;
+  }
+  /* Let people stop it to look at a frame. */
+  .strip:hover .strip-track {
+    animation-play-state: paused;
+  }
+
+  .trust-track {
+    animation: stripSlide 32s linear infinite;
+  }
+  .trust:hover .trust-track {
+    animation-play-state: paused;
+  }
+
+  /* The hero's "what's included" rail. Same two-half loop, but the track is a
+     fraction of the gallery strip's width, so it runs far quicker. Each chip
+     carries its own right margin rather than the row using a gap, which is
+     what makes the two halves exactly equal and the -50% loop seamless. */
+  .chip-strip-track {
+    animation: stripSlide 30s linear infinite;
+  }
+  .chip-strip:hover .chip-strip-track,
+  .chip-strip:focus-within .chip-strip-track {
+    animation-play-state: paused;
+  }
+}
+
+/* Dining slider's progress fill. Restarted on every slide change by
+   remounting the element with a fresh key, so the bar always races the
+   autoplay timer for whichever slide is currently showing. */
+@keyframes diningProgress {
+  from { width: 0%; }
+  to   { width: 100%; }
+}
+
+/* Cinematic zoom-back on PageHero: the photograph opens tight and eases out
+   to its resting scale once, like a slow reverse dolly. Runs once on mount,
+   not a loop. */
+@keyframes heroZoomBack {
+  from { transform: scale(1.18); }
+  to   { transform: scale(1); }
+}
+.hero-zoom-back {
+  animation: heroZoomBack 6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-zoom-back {
+    animation: none;
+  }
+}
+
+/*
+  Payment confirmed. The ring scales up from nothing, a soft halo pushes out
+  behind it once, and the tick draws itself along its own path rather than
+  fading in — so the mark reads as something that just happened.
+*/
+@keyframes tickRing {
+  0%   { transform: scale(0.5); opacity: 0; }
+  60%  { transform: scale(1.06); opacity: 1; }
+  100% { transform: scale(1); opacity: 1; }
+}
+@keyframes tickHalo {
+  0%   { transform: scale(0.7); opacity: 0.55; }
+  100% { transform: scale(1.9); opacity: 0; }
+}
+@keyframes tickDraw {
+  to { stroke-dashoffset: 0; }
+}
+
+.tick-ring {
+  animation: tickRing 520ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+.tick-halo {
+  animation: tickHalo 1100ms cubic-bezier(0.16, 1, 0.3, 1) 260ms both;
+}
+.tick-path {
+  stroke-dasharray: 30;
+  stroke-dashoffset: 30;
+  animation: tickDraw 460ms cubic-bezier(0.65, 0, 0.35, 1) 340ms forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tick-halo {
+    animation: none;
+    opacity: 0;
+  }
+  .tick-path {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* Frosted control surface, used only for buttons sitting over photography. */
+.glass {
+  background: rgba(23, 26, 25, 0.4);
+  border: 1px solid rgba(239, 241, 236, 0.24);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+@media (prefers-reduced-transparency: reduce) {
+  .glass {
+    background: rgba(23, 26, 25, 0.86);
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+}
+
+/* Grain sits on a non-scrolling, pointer-transparent layer only. */
+.grain {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.42;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='.28'/%3E%3C/svg%3E");
+}
+
+/* Hide scrollbars on the horizontal room rail without disabling scroll. */
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* A hairline that draws in from the left on hover. Used on text links. */
+.link-draw {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-size: 0% 1px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.4s var(--ease-out);
+}
+.link-draw:hover,
+.link-draw:focus-visible {
+  background-size: 100% 1px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(24px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(-24px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+/*
+  ---break---
+*/
+.dark {
+  --background: oklch(0.145 0 0);
+  --foreground: oklch(0.985 0 0);
+  --card: oklch(0.205 0 0);
+  --card-foreground: oklch(0.985 0 0);
+  --popover: oklch(0.205 0 0);
+  --popover-foreground: oklch(0.985 0 0);
+  --primary: oklch(0.922 0 0);
+  --primary-foreground: oklch(0.205 0 0);
+  --secondary: oklch(0.269 0 0);
+  --secondary-foreground: oklch(0.985 0 0);
+  --muted: oklch(0.269 0 0);
+  --muted-foreground: oklch(0.708 0 0);
+  --accent: oklch(0.269 0 0);
+  --accent-foreground: oklch(0.985 0 0);
+  --destructive: oklch(0.704 0.191 22.216);
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.556 0 0);
+  --chart-1: oklch(0.87 0 0);
+  --chart-2: oklch(0.556 0 0);
+  --chart-3: oklch(0.439 0 0);
+  --chart-4: oklch(0.371 0 0);
+  --chart-5: oklch(0.269 0 0);
+  --sidebar: oklch(0.205 0 0);
+  --sidebar-foreground: oklch(0.985 0 0);
+  --sidebar-primary: oklch(0.488 0.243 264.376);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.269 0 0);
+  --sidebar-accent-foreground: oklch(0.985 0 0);
+  --sidebar-border: oklch(1 0 0 / 10%);
+  --sidebar-ring: oklch(0.556 0 0);
+}
+/*
+  ---break---
+*/
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  html {
+    @apply font-sans;
+  }
+}
+
+/*
+  Chrome/Safari paint their own yellow fill and border on a field once they
+  decide it's one they can autofill (a password, in particular) — a UA style,
+  not something a Tailwind border/ring class touches. This keeps the field's
+  own background and text colour instead of the browser's.
+*/
+input:autofill,
+input:-webkit-autofill {
+  -webkit-text-fill-color: currentColor;
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+  box-shadow: 0 0 0px 1000px transparent inset;
+  transition: background-color 9999s ease-in-out 0s;
+}
