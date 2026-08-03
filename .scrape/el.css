@@ -1,0 +1,711 @@
+.elementor-kit-7{--e-global-color-primary:#6EC1E4;--e-global-color-secondary:#54595F;--e-global-color-text:#7A7A7A;--e-global-color-accent:#61CE70;--e-global-typography-primary-font-family:"OptimaLT";--e-global-typography-primary-font-size:20px;--e-global-typography-primary-font-weight:500;--e-global-typography-secondary-font-family:"Roboto Slab";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Roboto";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Roboto";--e-global-typography-accent-font-weight:500;}.elementor-kit-7 e-page-transition{background-color:#FFBC7D;}.elementor-kit-7 a{color:#868686;}.elementor-kit-7 a:hover{color:#C9A252;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1140px;}.e-con{--container-max-width:1140px;}.elementor-widget:not(:last-child){margin-block-end:20px;}.elementor-element{--widgets-spacing:20px 20px;--widgets-spacing-row:20px;--widgets-spacing-column:20px;}{}h1.entry-title{display:var(--page-title-display);}.site-header .site-branding{flex-direction:column;align-items:stretch;}.site-header{padding-inline-end:0px;padding-inline-start:0px;}.site-footer .site-branding{flex-direction:column;align-items:stretch;}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}/* Start Custom Fonts CSS */@font-face {
+	font-family: 'OptimaLT';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://windsorgolfresort.travelbook-tech.com/wp-content/uploads/2023/06/OptimaLTStd.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'OptimaLT';
+	font-style: normal;
+	font-weight: bold;
+	font-display: auto;
+	src: url('https://windsorgolfresort.travelbook-tech.com/wp-content/uploads/2023/06/OptimaLTStd-Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'OptimaLT';
+	font-style: italic;
+	font-weight: bold;
+	font-display: auto;
+	src: url('https://windsorgolfresort.travelbook-tech.com/wp-content/uploads/2023/06/OptimaLTStd-BoldItalic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'OptimaLT';
+	font-style: italic;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://windsorgolfresort.travelbook-tech.com/wp-content/uploads/2023/06/OptimaLTStd-Italic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'OptimaLT';
+	font-style: normal;
+	font-weight: 500;
+	font-display: auto;
+	src: url('https://windsorgolfresort.travelbook-tech.com/wp-content/uploads/2023/06/OptimaLTStd-Medium.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */
+.elementor-37 .elementor-element.elementor-element-dce8dff{--display:flex;--min-height:400px;--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--align-items:stretch;--gap:0px 0px;--row-gap:0px;--column-gap:0px;--margin-top:0em;--margin-bottom:0em;--margin-left:0em;--margin-right:0em;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-37 .elementor-element.elementor-element-7c7fa15{--display:flex;--justify-content:center;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-widget-slides .elementor-slide-heading{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-size:var( --e-global-typography-primary-font-size );font-weight:var( --e-global-typography-primary-font-weight );}.elementor-widget-slides .elementor-slide-description{font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-weight:var( --e-global-typography-secondary-font-weight );}.elementor-widget-slides .elementor-slide-button{font-family:var( --e-global-typography-accent-font-family ), Sans-serif;font-weight:var( --e-global-typography-accent-font-weight );}.elementor-37 .elementor-element.elementor-element-9b1faf9 .elementor-repeater-item-8178d72 .swiper-slide-bg{background-color:#bbbbbb;background-image:url(https://masailandsafari.com/wp-content/uploads/2023/10/Masailand.jpg);background-size:cover;}.elementor-37 .elementor-element.elementor-element-9b1faf9 .elementor-repeater-item-903472e .swiper-slide-bg{background-image:url(https://masailandsafari.com/wp-content/uploads/2023/09/Balcony-2.jpg);background-size:cover;}.elementor-37 .elementor-element.elementor-element-9b1faf9 .elementor-repeater-item-903472e .elementor-background-overlay{background-color:#0000007A;}.elementor-37 .elementor-element.elementor-element-9b1faf9 .elementor-repeater-item-6ad8346 .swiper-slide-bg{background-image:url(https://masailandsafari.com/wp-content/uploads/2023/09/Executive-suite-single-or-Double-1.jpg);background-size:cover;}.elementor-37 .elementor-element.elementor-element-9b1faf9 .elementor-repeater-item-6ad8346 .elementor-background-overlay{background-color:#00000063;}.elementor-37 .elementor-element.elementor-element-9b1faf9 .elementor-repeater-item-4d9732e .swiper-slide-bg{background-image:url(https://masailandsafari.com/wp-content/uploads/2023/08/Layout-1.jpg);background-size:cover;}.elementor-37 .elementor-element.elementor-element-9b1faf9 .elementor-repeater-item-4d9732e .elementor-background-overlay{background-color:#00000061;}.elementor-37 .elementor-element.elementor-element-9b1faf9 .elementor-repeater-item-3c832f7 .swiper-slide-bg{background-image:url(https://masailandsafari.com/wp-content/uploads/2023/10/farm.jpg);background-size:cover;}.elementor-37 .elementor-element.elementor-element-9b1faf9 .elementor-repeater-item-3c832f7 .elementor-background-overlay{background-color:#00000061;}.elementor-37 .elementor-element.elementor-element-9b1faf9 .swiper-slide{transition-duration:calc(5000ms*1.2);height:73vh;}.elementor-37 .elementor-element.elementor-element-9b1faf9 .swiper-slide-contents{max-width:66%;text-shadow:0px 0px 10px rgba(0, 0, 0, 0.67);}.elementor-37 .elementor-element.elementor-element-9b1faf9 .swiper-slide-inner{text-align:center;}.elementor-37 .elementor-element.elementor-element-9b1faf9 .elementor-slide-heading{font-family:"Josefin Sans", Sans-serif;font-size:2.5em;font-weight:500;}.elementor-37 .elementor-element.elementor-element-9b1faf9 .elementor-slide-description{font-family:"Roboto", Sans-serif;font-size:1.6rem;font-weight:300;line-height:1px;}.elementor-37 .elementor-element.elementor-element-9b1faf9 .elementor-swiper-button{font-size:27px;color:#FFFFFFDE;}.elementor-37 .elementor-element.elementor-element-9b1faf9 .elementor-swiper-button svg{fill:#FFFFFFDE;}.elementor-37 .elementor-element.elementor-element-ced8c11{color:#070101;}.elementor-37 .elementor-element.elementor-element-a271866{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;}.elementor-37 .elementor-element.elementor-element-004551b{--spacer-size:50px;}.elementor-37 .elementor-element.elementor-element-b635d1b{--display:flex;--flex-direction:row;--container-widget-width:initial;--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--gap:0px 0px;--row-gap:0px;--column-gap:0px;--flex-wrap:wrap;--overflow:auto;box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.03) inset;}.elementor-37 .elementor-element.elementor-element-9d15a5e{--display:flex;}.elementor-widget-heading .elementor-heading-title{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-size:var( --e-global-typography-primary-font-size );font-weight:var( --e-global-typography-primary-font-weight );color:var( --e-global-color-primary );}.elementor-37 .elementor-element.elementor-element-ca27bf9{text-align:start;}.elementor-37 .elementor-element.elementor-element-ca27bf9 .elementor-heading-title{font-family:"Lato", Sans-serif;font-size:52px;font-weight:500;color:#5E0D04;}.elementor-widget-text-editor{font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );color:var( --e-global-color-text );}.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:var( --e-global-color-primary );}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap, .elementor-widget-text-editor.elementor-drop-cap-view-default .elementor-drop-cap{color:var( --e-global-color-primary );border-color:var( --e-global-color-primary );}.elementor-37 .elementor-element.elementor-element-632cbeb{text-align:start;font-family:"Ubuntu", Sans-serif;font-weight:400;color:#292424;}.elementor-37 .elementor-element.elementor-element-b184df3{--display:flex;}.elementor-37 .elementor-element.elementor-element-121b066{--display:flex;box-shadow:0px 0px 10px 0px rgba(0,0,0,0.5);}.elementor-37 .elementor-element.elementor-element-e74dd37{--spacer-size:50px;}.elementor-37 .elementor-element.elementor-element-3b391fd:not(.elementor-motion-effects-element-type-background), .elementor-37 .elementor-element.elementor-element-3b391fd > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#F5F5F7;}.elementor-37 .elementor-element.elementor-element-3b391fd{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-37 .elementor-element.elementor-element-3b391fd > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-37 .elementor-element.elementor-element-97f4e07 .elementor-repeater-item-4d9732e .swiper-slide-bg{background-image:url(https://masailandsafari.com/wp-content/uploads/2023/11/Deluxe-room-Single-or-Double2.jpg);background-size:cover;}.elementor-37 .elementor-element.elementor-element-97f4e07 .elementor-repeater-item-5923d78 .swiper-slide-bg{background-color:#bbbbbb;background-image:url(https://masailandsafari.com/wp-content/uploads/2023/09/Executive-suite-single-or-Double-2.jpg);background-size:cover;}.elementor-37 .elementor-element.elementor-element-97f4e07 .elementor-repeater-item-e92fcf8 .swiper-slide-bg{background-color:#bbbbbb;background-image:url(https://masailandsafari.com/wp-content/uploads/2023/09/Deluxe-room.jpg);background-size:cover;}.elementor-37 .elementor-element.elementor-element-97f4e07 .swiper-slide{transition-duration:calc(5000ms*1.2);height:70vh;}.elementor-37 .elementor-element.elementor-element-97f4e07 .swiper-slide-contents{max-width:66%;}.elementor-37 .elementor-element.elementor-element-97f4e07 .swiper-slide-inner{text-align:center;}.elementor-37 .elementor-element.elementor-element-97f4e07 .elementor-swiper-button{font-size:27px;color:#FFFFFFDE;}.elementor-37 .elementor-element.elementor-element-97f4e07 .elementor-swiper-button svg{fill:#FFFFFFDE;}.elementor-37 .elementor-element.elementor-element-56b3902:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap, .elementor-37 .elementor-element.elementor-element-56b3902 > .elementor-widget-wrap > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#FFFFFF;}.elementor-bc-flex-widget .elementor-37 .elementor-element.elementor-element-56b3902.elementor-column .elementor-widget-wrap{align-items:center;}.elementor-37 .elementor-element.elementor-element-56b3902.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{align-content:center;align-items:center;}.elementor-37 .elementor-element.elementor-element-56b3902.elementor-column > .elementor-widget-wrap{justify-content:center;}.elementor-37 .elementor-element.elementor-element-56b3902 > .elementor-element-populated{box-shadow:1px 1px 10px 0px rgba(0,0,0,0.5);transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin:4em 4em 4em -4em;--e-column-margin-right:4em;--e-column-margin-left:-4em;padding:1em 1em 1em 1em;}.elementor-37 .elementor-element.elementor-element-56b3902 > .elementor-element-populated > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-37 .elementor-element.elementor-element-56b3902{z-index:2;}.elementor-37 .elementor-element.elementor-element-eb37302 > .elementor-widget-container{margin:0em 0em 0em 0em;padding:0em 0em 0em 0em;}.elementor-37 .elementor-element.elementor-element-eb37302{text-align:start;}.elementor-37 .elementor-element.elementor-element-eb37302 .elementor-heading-title{font-family:"Lato", Sans-serif;font-size:26px;font-weight:700;color:#454545;}.elementor-37 .elementor-element.elementor-element-5572df5 > .elementor-widget-container{padding:0em 0em 0em 0em;}.elementor-37 .elementor-element.elementor-element-5572df5{column-gap:0px;text-align:justify;font-family:"Montserrat", Sans-serif;font-size:16px;font-weight:400;line-height:2rem;color:#0C0A0A;}.elementor-widget-button .elementor-button{background-color:var( --e-global-color-accent );font-family:var( --e-global-typography-accent-font-family ), Sans-serif;font-weight:var( --e-global-typography-accent-font-weight );}.elementor-37 .elementor-element.elementor-element-ebe3a2a .elementor-button{background-color:#FFFFFF;font-family:"OptimaLT", Sans-serif;font-size:20px;font-weight:300;fill:#000000;color:#000000;box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.26);border-style:solid;border-width:1px 1px 1px 1px;border-color:#000000;border-radius:0px 0px 0px 0px;}.elementor-37 .elementor-element.elementor-element-ebe3a2a .elementor-button:hover, .elementor-37 .elementor-element.elementor-element-ebe3a2a .elementor-button:focus{background-color:#FFFFFF;color:#3F2119;}.elementor-37 .elementor-element.elementor-element-ebe3a2a > .elementor-widget-container{padding:0em 0em 0em 0em;}.elementor-37 .elementor-element.elementor-element-ebe3a2a.elementor-element{--flex-grow:0;--flex-shrink:1;}.elementor-37 .elementor-element.elementor-element-ebe3a2a .elementor-button:hover svg, .elementor-37 .elementor-element.elementor-element-ebe3a2a .elementor-button:focus svg{fill:#3F2119;}.elementor-37 .elementor-element.elementor-element-df65c0c{--spacer-size:50px;}.elementor-37 .elementor-element.elementor-element-499b83b:not(.elementor-motion-effects-element-type-background), .elementor-37 .elementor-element.elementor-element-499b83b > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#F5F5F7;}.elementor-37 .elementor-element.elementor-element-499b83b{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-37 .elementor-element.elementor-element-499b83b > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-37 .elementor-element.elementor-element-8181395:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap, .elementor-37 .elementor-element.elementor-element-8181395 > .elementor-widget-wrap > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#F8F8F8;}.elementor-bc-flex-widget .elementor-37 .elementor-element.elementor-element-8181395.elementor-column .elementor-widget-wrap{align-items:center;}.elementor-37 .elementor-element.elementor-element-8181395.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{align-content:center;align-items:center;}.elementor-37 .elementor-element.elementor-element-8181395.elementor-column > .elementor-widget-wrap{justify-content:center;}.elementor-37 .elementor-element.elementor-element-8181395 > .elementor-element-populated{box-shadow:1px 1px 10px 0px rgba(0,0,0,0.5);transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin:3em -4em 3em 5em;--e-column-margin-right:-4em;--e-column-margin-left:5em;}.elementor-37 .elementor-element.elementor-element-8181395 > .elementor-element-populated > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-37 .elementor-element.elementor-element-8181395{z-index:2;}.elementor-37 .elementor-element.elementor-element-6d0beeb > .elementor-widget-container{margin:1em 0em 0em 0em;padding:1em 1em 1em 1em;}.elementor-37 .elementor-element.elementor-element-6d0beeb{text-align:center;}.elementor-37 .elementor-element.elementor-element-6d0beeb .elementor-heading-title{font-family:"OptimaLT", Sans-serif;font-size:26px;font-weight:500;color:#454545;}.elementor-widget-divider{--divider-color:var( --e-global-color-secondary );}.elementor-widget-divider .elementor-divider__text{color:var( --e-global-color-secondary );font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-weight:var( --e-global-typography-secondary-font-weight );}.elementor-widget-divider.elementor-view-stacked .elementor-icon{background-color:var( --e-global-color-secondary );}.elementor-widget-divider.elementor-view-framed .elementor-icon, .elementor-widget-divider.elementor-view-default .elementor-icon{color:var( --e-global-color-secondary );border-color:var( --e-global-color-secondary );}.elementor-widget-divider.elementor-view-framed .elementor-icon, .elementor-widget-divider.elementor-view-default .elementor-icon svg{fill:var( --e-global-color-secondary );}.elementor-37 .elementor-element.elementor-element-0ae7b3e{--divider-border-style:solid;--divider-color:#572312;--divider-border-width:1.5px;}.elementor-37 .elementor-element.elementor-element-0ae7b3e > .elementor-widget-container{margin:-1em 0em 0em 0em;}.elementor-37 .elementor-element.elementor-element-0ae7b3e .elementor-divider-separator{width:25%;margin:0 auto;margin-center:0;}.elementor-37 .elementor-element.elementor-element-0ae7b3e .elementor-divider{text-align:center;padding-block-start:15px;padding-block-end:15px;}.elementor-37 .elementor-element.elementor-element-c895d04 > .elementor-widget-container{padding:1em 1em 1em 1em;}.elementor-37 .elementor-element.elementor-element-c895d04{column-gap:0px;text-align:justify;font-family:"Montserrat", Sans-serif;font-size:16px;font-weight:400;line-height:2rem;color:#0E0C0C;}.elementor-37 .elementor-element.elementor-element-3a9e9d3 .elementor-button{background-color:#FFFFFF;font-family:"OptimaLT", Sans-serif;font-size:20px;font-weight:300;fill:#000000;color:#000000;box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.26);border-style:solid;border-width:1px 1px 1px 1px;border-color:#000000;border-radius:0px 0px 0px 0px;}.elementor-37 .elementor-element.elementor-element-3a9e9d3 .elementor-button:hover, .elementor-37 .elementor-element.elementor-element-3a9e9d3 .elementor-button:focus{background-color:#FFFFFF;color:#3F2119;}.elementor-37 .elementor-element.elementor-element-3a9e9d3 > .elementor-widget-container{padding:0em 0em 0em 0em;}.elementor-37 .elementor-element.elementor-element-3a9e9d3.elementor-element{--flex-grow:0;--flex-shrink:1;}.elementor-37 .elementor-element.elementor-element-3a9e9d3 .elementor-button:hover svg, .elementor-37 .elementor-element.elementor-element-3a9e9d3 .elementor-button:focus svg{fill:#3F2119;}.elementor-37 .elementor-element.elementor-element-2e63d70{--spacer-size:50px;}.elementor-37 .elementor-element.elementor-element-db9183f .elementor-repeater-item-a5e3711 .swiper-slide-bg{background-color:#bbbbbb;background-image:url(https://masailandsafari.com/wp-content/uploads/2023/10/wine2.jpg);background-size:cover;}.elementor-37 .elementor-element.elementor-element-db9183f .elementor-repeater-item-4d9732e .swiper-slide-bg{background-image:url(https://masailandsafari.com/wp-content/uploads/2023/10/wine.jpg);background-size:cover;}.elementor-37 .elementor-element.elementor-element-db9183f .swiper-slide{transition-duration:calc(5000ms*1.2);height:70vh;}.elementor-37 .elementor-element.elementor-element-db9183f .swiper-slide-contents{max-width:66%;}.elementor-37 .elementor-element.elementor-element-db9183f .swiper-slide-inner{text-align:center;}.elementor-37 .elementor-element.elementor-element-db9183f .elementor-swiper-button{font-size:27px;color:#FFFFFFDE;}.elementor-37 .elementor-element.elementor-element-db9183f .elementor-swiper-button svg{fill:#FFFFFFDE;}.elementor-37 .elementor-element.elementor-element-e942ded:not(.elementor-motion-effects-element-type-background), .elementor-37 .elementor-element.elementor-element-e942ded > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#F5F5F7;}.elementor-37 .elementor-element.elementor-element-e942ded{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-37 .elementor-element.elementor-element-e942ded > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-37 .elementor-element.elementor-element-9e2f897 .elementor-repeater-item-4d9732e .swiper-slide-bg{background-image:url(https://masailandsafari.com/wp-content/uploads/2023/09/PHOTO-2019-04-21-11-46-29.jpg);background-size:cover;}.elementor-37 .elementor-element.elementor-element-9e2f897 .elementor-repeater-item-c12e009 .swiper-slide-bg{background-color:#bbbbbb;background-image:url(https://masailandsafari.com/wp-content/uploads/2023/10/swiming-pool-garden.jpg);background-size:cover;}.elementor-37 .elementor-element.elementor-element-9e2f897 .swiper-slide{transition-duration:calc(5000ms*1.2);height:70vh;}.elementor-37 .elementor-element.elementor-element-9e2f897 .swiper-slide-contents{max-width:66%;}.elementor-37 .elementor-element.elementor-element-9e2f897 .swiper-slide-inner{text-align:center;}.elementor-37 .elementor-element.elementor-element-9e2f897 .elementor-swiper-button{font-size:27px;color:#FFFFFFDE;}.elementor-37 .elementor-element.elementor-element-9e2f897 .elementor-swiper-button svg{fill:#FFFFFFDE;}.elementor-37 .elementor-element.elementor-element-15a93f2 .elementor-button{background-color:#FFFFFF;font-family:"OptimaLT", Sans-serif;font-size:20px;font-weight:300;fill:#000000;color:#000000;box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.26);border-style:solid;border-width:1px 1px 1px 1px;border-color:#000000;border-radius:0px 0px 0px 0px;}.elementor-37 .elementor-element.elementor-element-15a93f2 .elementor-button:hover, .elementor-37 .elementor-element.elementor-element-15a93f2 .elementor-button:focus{background-color:#FFFFFF;color:#3F2119;}.elementor-37 .elementor-element.elementor-element-15a93f2 > .elementor-widget-container{padding:0em 0em 0em 0em;}.elementor-37 .elementor-element.elementor-element-15a93f2.elementor-element{--flex-grow:0;--flex-shrink:1;}.elementor-37 .elementor-element.elementor-element-15a93f2 .elementor-button:hover svg, .elementor-37 .elementor-element.elementor-element-15a93f2 .elementor-button:focus svg{fill:#3F2119;}.elementor-37 .elementor-element.elementor-element-3af547b:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap, .elementor-37 .elementor-element.elementor-element-3af547b > .elementor-widget-wrap > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#FFFFFF;}.elementor-bc-flex-widget .elementor-37 .elementor-element.elementor-element-3af547b.elementor-column .elementor-widget-wrap{align-items:center;}.elementor-37 .elementor-element.elementor-element-3af547b.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{align-content:center;align-items:center;}.elementor-37 .elementor-element.elementor-element-3af547b.elementor-column > .elementor-widget-wrap{justify-content:center;}.elementor-37 .elementor-element.elementor-element-3af547b > .elementor-element-populated{box-shadow:1px 1px 10px 0px rgba(0,0,0,0.5);transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin:4em 4em 4em -4em;--e-column-margin-right:4em;--e-column-margin-left:-4em;}.elementor-37 .elementor-element.elementor-element-3af547b > .elementor-element-populated > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-37 .elementor-element.elementor-element-3af547b{z-index:2;}.elementor-37 .elementor-element.elementor-element-4f8d079 > .elementor-widget-container{margin:1em 0em 0em 0em;padding:1em 1em 1em 1em;}.elementor-37 .elementor-element.elementor-element-4f8d079{text-align:center;}.elementor-37 .elementor-element.elementor-element-4f8d079 .elementor-heading-title{font-family:"OptimaLT", Sans-serif;font-size:26px;font-weight:500;color:#454545;}.elementor-37 .elementor-element.elementor-element-c966048{--divider-border-style:solid;--divider-color:#572312;--divider-border-width:1.5px;}.elementor-37 .elementor-element.elementor-element-c966048 > .elementor-widget-container{margin:-1em 0em 0em 0em;}.elementor-37 .elementor-element.elementor-element-c966048 .elementor-divider-separator{width:25%;margin:0 auto;margin-center:0;}.elementor-37 .elementor-element.elementor-element-c966048 .elementor-divider{text-align:center;padding-block-start:15px;padding-block-end:15px;}.elementor-37 .elementor-element.elementor-element-a9ece9b > .elementor-widget-container{padding:1em 1em 1em 1em;}.elementor-37 .elementor-element.elementor-element-a9ece9b{column-gap:0px;text-align:justify;font-family:"Montserrat", Sans-serif;font-size:16px;font-weight:400;line-height:2rem;color:#0C0B0B;}.elementor-37 .elementor-element.elementor-element-891cfed:not(.elementor-motion-effects-element-type-background), .elementor-37 .elementor-element.elementor-element-891cfed > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#F5F5F7;}.elementor-37 .elementor-element.elementor-element-891cfed{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-37 .elementor-element.elementor-element-891cfed > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-37 .elementor-element.elementor-element-fcaced7:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap, .elementor-37 .elementor-element.elementor-element-fcaced7 > .elementor-widget-wrap > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#F8F8F8;}.elementor-bc-flex-widget .elementor-37 .elementor-element.elementor-element-fcaced7.elementor-column .elementor-widget-wrap{align-items:center;}.elementor-37 .elementor-element.elementor-element-fcaced7.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{align-content:center;align-items:center;}.elementor-37 .elementor-element.elementor-element-fcaced7.elementor-column > .elementor-widget-wrap{justify-content:center;}.elementor-37 .elementor-element.elementor-element-fcaced7 > .elementor-element-populated{box-shadow:1px 1px 10px 0px rgba(0,0,0,0.5);transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin:3em -4em 3em 5em;--e-column-margin-right:-4em;--e-column-margin-left:5em;}.elementor-37 .elementor-element.elementor-element-fcaced7 > .elementor-element-populated > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-37 .elementor-element.elementor-element-fcaced7{z-index:2;}.elementor-37 .elementor-element.elementor-element-d2b61b4 > .elementor-widget-container{margin:1em 0em 0em 0em;padding:1em 1em 1em 1em;}.elementor-37 .elementor-element.elementor-element-d2b61b4{text-align:center;}.elementor-37 .elementor-element.elementor-element-d2b61b4 .elementor-heading-title{font-family:"OptimaLT", Sans-serif;font-size:26px;font-weight:500;color:#454545;}.elementor-37 .elementor-element.elementor-element-7b13c4a{--divider-border-style:solid;--divider-color:#572312;--divider-border-width:1.5px;}.elementor-37 .elementor-element.elementor-element-7b13c4a > .elementor-widget-container{margin:-1em 0em 0em 0em;}.elementor-37 .elementor-element.elementor-element-7b13c4a .elementor-divider-separator{width:25%;margin:0 auto;margin-center:0;}.elementor-37 .elementor-element.elementor-element-7b13c4a .elementor-divider{text-align:center;padding-block-start:15px;padding-block-end:15px;}.elementor-37 .elementor-element.elementor-element-a12fae1 > .elementor-widget-container{padding:1em 1em 1em 1em;}.elementor-37 .elementor-element.elementor-element-a12fae1{column-gap:0px;text-align:justify;font-family:"Montserrat", Sans-serif;font-size:16px;font-weight:400;line-height:2rem;color:#0E0C0C;}.elementor-37 .elementor-element.elementor-element-1e95118 .elementor-button{background-color:#FFFFFF;font-family:"OptimaLT", Sans-serif;font-size:20px;font-weight:300;fill:#000000;color:#000000;box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.26);border-style:solid;border-width:1px 1px 1px 1px;border-color:#000000;border-radius:0px 0px 0px 0px;}.elementor-37 .elementor-element.elementor-element-1e95118 .elementor-button:hover, .elementor-37 .elementor-element.elementor-element-1e95118 .elementor-button:focus{background-color:#FFFFFF;color:#3F2119;}.elementor-37 .elementor-element.elementor-element-1e95118 > .elementor-widget-container{padding:0em 0em 0em 0em;}.elementor-37 .elementor-element.elementor-element-1e95118.elementor-element{--flex-grow:0;--flex-shrink:1;}.elementor-37 .elementor-element.elementor-element-1e95118 .elementor-button:hover svg, .elementor-37 .elementor-element.elementor-element-1e95118 .elementor-button:focus svg{fill:#3F2119;}.elementor-37 .elementor-element.elementor-element-7cb8722{--spacer-size:50px;}.elementor-37 .elementor-element.elementor-element-1878e69 .elementor-repeater-item-2a04959 .swiper-slide-bg{background-color:#bbbbbb;background-image:url(https://masailandsafari.com/wp-content/uploads/2023/10/gyme-masai-land.jpg);background-size:cover;}.elementor-37 .elementor-element.elementor-element-1878e69 .elementor-repeater-item-573ecfd .swiper-slide-bg{background-color:#bbbbbb;background-image:url(https://masailandsafari.com/wp-content/uploads/2023/10/gym-and-fitness-masai-land-lodge.jpg);background-size:cover;}.elementor-37 .elementor-element.elementor-element-1878e69 .swiper-slide{transition-duration:calc(5000ms*1.2);height:70vh;}.elementor-37 .elementor-element.elementor-element-1878e69 .swiper-slide-contents{max-width:66%;}.elementor-37 .elementor-element.elementor-element-1878e69 .swiper-slide-inner{text-align:center;}.elementor-37 .elementor-element.elementor-element-1878e69 .elementor-swiper-button{font-size:27px;color:#FFFFFFDE;}.elementor-37 .elementor-element.elementor-element-1878e69 .elementor-swiper-button svg{fill:#FFFFFFDE;}.elementor-37 .elementor-element.elementor-element-e738241:not(.elementor-motion-effects-element-type-background), .elementor-37 .elementor-element.elementor-element-e738241 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#F5F5F7;}.elementor-37 .elementor-element.elementor-element-e738241{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-37 .elementor-element.elementor-element-e738241 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-37 .elementor-element.elementor-element-50d8de9 .elementor-repeater-item-4d9732e .swiper-slide-bg{background-image:url(https://masailandsafari.com/wp-content/uploads/2023/10/Indoor-Restaurant.png);background-size:cover;}.elementor-37 .elementor-element.elementor-element-50d8de9 .elementor-repeater-item-52b25ef .swiper-slide-bg{background-color:#bbbbbb;background-image:url(https://masailandsafari.com/wp-content/uploads/2023/10/restaurant.jpg);background-size:cover;}.elementor-37 .elementor-element.elementor-element-50d8de9 .swiper-slide{transition-duration:calc(5000ms*1.2);height:70vh;}.elementor-37 .elementor-element.elementor-element-50d8de9 .swiper-slide-contents{max-width:66%;}.elementor-37 .elementor-element.elementor-element-50d8de9 .swiper-slide-inner{text-align:center;}.elementor-37 .elementor-element.elementor-element-50d8de9 .elementor-swiper-button{font-size:27px;color:#FFFFFFDE;}.elementor-37 .elementor-element.elementor-element-50d8de9 .elementor-swiper-button svg{fill:#FFFFFFDE;}.elementor-37 .elementor-element.elementor-element-d557222 .elementor-button{background-color:#FFFFFF;font-family:"OptimaLT", Sans-serif;font-size:20px;font-weight:300;fill:#000000;color:#000000;box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.26);border-style:solid;border-width:1px 1px 1px 1px;border-color:#000000;border-radius:0px 0px 0px 0px;}.elementor-37 .elementor-element.elementor-element-d557222 .elementor-button:hover, .elementor-37 .elementor-element.elementor-element-d557222 .elementor-button:focus{background-color:#FFFFFF;color:#3F2119;}.elementor-37 .elementor-element.elementor-element-d557222 > .elementor-widget-container{padding:0em 0em 0em 0em;}.elementor-37 .elementor-element.elementor-element-d557222.elementor-element{--flex-grow:0;--flex-shrink:1;}.elementor-37 .elementor-element.elementor-element-d557222 .elementor-button:hover svg, .elementor-37 .elementor-element.elementor-element-d557222 .elementor-button:focus svg{fill:#3F2119;}.elementor-37 .elementor-element.elementor-element-8d76304:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap, .elementor-37 .elementor-element.elementor-element-8d76304 > .elementor-widget-wrap > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#FFFFFF;}.elementor-bc-flex-widget .elementor-37 .elementor-element.elementor-element-8d76304.elementor-column .elementor-widget-wrap{align-items:center;}.elementor-37 .elementor-element.elementor-element-8d76304.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{align-content:center;align-items:center;}.elementor-37 .elementor-element.elementor-element-8d76304.elementor-column > .elementor-widget-wrap{justify-content:center;}.elementor-37 .elementor-element.elementor-element-8d76304 > .elementor-element-populated{box-shadow:1px 1px 10px 0px rgba(0,0,0,0.5);transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin:4em 4em 4em -4em;--e-column-margin-right:4em;--e-column-margin-left:-4em;}.elementor-37 .elementor-element.elementor-element-8d76304 > .elementor-element-populated > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-37 .elementor-element.elementor-element-8d76304{z-index:2;}.elementor-37 .elementor-element.elementor-element-1c28c18 > .elementor-widget-container{margin:1em 0em 0em 0em;padding:1em 1em 1em 1em;}.elementor-37 .elementor-element.elementor-element-1c28c18{text-align:center;}.elementor-37 .elementor-element.elementor-element-1c28c18 .elementor-heading-title{font-family:"OptimaLT", Sans-serif;font-size:26px;font-weight:500;color:#454545;}.elementor-37 .elementor-element.elementor-element-17ba2b0{--divider-border-style:solid;--divider-color:#572312;--divider-border-width:1.5px;}.elementor-37 .elementor-element.elementor-element-17ba2b0 > .elementor-widget-container{margin:-1em 0em 0em 0em;}.elementor-37 .elementor-element.elementor-element-17ba2b0 .elementor-divider-separator{width:25%;margin:0 auto;margin-center:0;}.elementor-37 .elementor-element.elementor-element-17ba2b0 .elementor-divider{text-align:center;padding-block-start:15px;padding-block-end:15px;}.elementor-37 .elementor-element.elementor-element-b34be97 > .elementor-widget-container{padding:1em 1em 1em 1em;}.elementor-37 .elementor-element.elementor-element-b34be97{column-gap:0px;text-align:justify;font-family:"Montserrat", Sans-serif;font-size:16px;font-weight:400;line-height:2rem;color:#111010;}.elementor-37 .elementor-element.elementor-element-a0f5c29{--spacer-size:57px;}.elementor-37 .elementor-element.elementor-element-767d151:not(.elementor-motion-effects-element-type-background), .elementor-37 .elementor-element.elementor-element-767d151 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#FFFFFF;}.elementor-37 .elementor-element.elementor-element-767d151 > .elementor-container{min-height:520px;}.elementor-37 .elementor-element.elementor-element-767d151 > .elementor-background-overlay{opacity:0.5;transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-37 .elementor-element.elementor-element-767d151{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin-top:3em;margin-bottom:3em;}.elementor-37 .elementor-element.elementor-element-225715d:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap, .elementor-37 .elementor-element.elementor-element-225715d > .elementor-widget-wrap > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#FFFFFF;}.elementor-37 .elementor-element.elementor-element-225715d > .elementor-element-populated, .elementor-37 .elementor-element.elementor-element-225715d > .elementor-element-populated > .elementor-background-overlay, .elementor-37 .elementor-element.elementor-element-225715d > .elementor-background-slideshow{border-radius:1px 1px 1px 1px;}.elementor-37 .elementor-element.elementor-element-225715d > .elementor-element-populated{box-shadow:0px 0px 27px -7px rgba(0, 0, 0, 0.3);transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin:6em -6em 6em 11em;--e-column-margin-right:-6em;--e-column-margin-left:11em;padding:2em 2em 2em 2em;}.elementor-37 .elementor-element.elementor-element-225715d > .elementor-element-populated > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-37 .elementor-element.elementor-element-225715d{z-index:2;}.elementor-37 .elementor-element.elementor-element-5be5fb7 > .elementor-widget-container{margin:1em 0em 0em 0em;}.elementor-37 .elementor-element.elementor-element-5be5fb7{text-align:center;}.elementor-37 .elementor-element.elementor-element-5be5fb7 .elementor-heading-title{font-family:"OptimaLT", Sans-serif;font-size:26px;font-weight:500;color:#454545;}.elementor-37 .elementor-element.elementor-element-86c5ccc{--divider-border-style:solid;--divider-color:#000;--divider-border-width:1.5px;}.elementor-37 .elementor-element.elementor-element-86c5ccc > .elementor-widget-container{margin:-1em 0em 0em 0em;}.elementor-37 .elementor-element.elementor-element-86c5ccc .elementor-divider-separator{width:25%;margin:0 auto;margin-center:0;}.elementor-37 .elementor-element.elementor-element-86c5ccc .elementor-divider{text-align:center;padding-block-start:15px;padding-block-end:15px;}.elementor-37 .elementor-element.elementor-element-35dca86{column-gap:0px;text-align:start;font-family:"Montserrat", Sans-serif;font-size:16px;font-weight:400;color:#080808;}.elementor-37 .elementor-element.elementor-element-144773f .elementor-button{background-color:#FFFFFF;font-family:"OptimaLT", Sans-serif;font-size:20px;font-weight:300;fill:#000000;color:#000000;box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.26);border-style:solid;border-width:1px 1px 1px 1px;border-color:#000000;border-radius:0px 0px 0px 0px;}.elementor-37 .elementor-element.elementor-element-144773f .elementor-button:hover, .elementor-37 .elementor-element.elementor-element-144773f .elementor-button:focus{background-color:#FFFFFF;color:#3F2119;}.elementor-37 .elementor-element.elementor-element-144773f > .elementor-widget-container{padding:0em 0em 0em 0em;}.elementor-37 .elementor-element.elementor-element-144773f.elementor-element{--flex-grow:0;--flex-shrink:1;}.elementor-37 .elementor-element.elementor-element-144773f .elementor-button:hover svg, .elementor-37 .elementor-element.elementor-element-144773f .elementor-button:focus svg{fill:#3F2119;}.elementor-37 .elementor-element.elementor-element-e0bf918 > .elementor-element-populated{margin:0em 5em 0em 0em;--e-column-margin-right:5em;--e-column-margin-left:0em;}.elementor-37 .elementor-element.elementor-element-88a5a93 .elementor-repeater-item-e4b401c .swiper-slide-bg{background-color:#bbbbbb;background-image:url(https://masailandsafari.com/wp-content/uploads/2023/10/Outdoor-1.jpg);background-size:cover;}.elementor-37 .elementor-element.elementor-element-88a5a93 .elementor-repeater-item-4d9732e .swiper-slide-bg{background-image:url(https://masailandsafari.com/wp-content/uploads/2023/10/relaxation.jpg);background-size:cover;}.elementor-37 .elementor-element.elementor-element-88a5a93 .elementor-repeater-item-47be03f .swiper-slide-bg{background-image:url(https://masailandsafari.com/wp-content/uploads/2023/09/Cottages.jpg);background-size:cover;}.elementor-37 .elementor-element.elementor-element-88a5a93 .swiper-slide{transition-duration:calc(5000ms*1.2);height:70vh;}.elementor-37 .elementor-element.elementor-element-88a5a93 .swiper-slide-contents{max-width:66%;}.elementor-37 .elementor-element.elementor-element-88a5a93 .swiper-slide-inner{text-align:center;}.elementor-37 .elementor-element.elementor-element-88a5a93 .elementor-swiper-button{font-size:27px;color:#FFFFFFDE;}.elementor-37 .elementor-element.elementor-element-88a5a93 .elementor-swiper-button svg{fill:#FFFFFFDE;}.elementor-37 .elementor-element.elementor-element-7d463de:not(.elementor-motion-effects-element-type-background), .elementor-37 .elementor-element.elementor-element-7d463de > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#FFFFFF;background-image:url("https://masailandsafari.com/wp-content/uploads/2023/09/Back-view.jpg");background-position:center center;background-size:cover;}.elementor-37 .elementor-element.elementor-element-7d463de > .elementor-background-overlay{background-color:#F9F5F5;opacity:0.15;transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-37 .elementor-element.elementor-element-7d463de > .elementor-container{min-height:520px;}.elementor-37 .elementor-element.elementor-element-7d463de{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin-top:3em;margin-bottom:0em;}.elementor-37 .elementor-element.elementor-element-e79b78e > .elementor-element-populated{margin:0em 0em 0em 5em;--e-column-margin-right:0em;--e-column-margin-left:5em;}.elementor-37 .elementor-element.elementor-element-9516d22{--spacer-size:10px;}.elementor-37 .elementor-element.elementor-element-b16b5cf{--spacer-size:50px;}.elementor-37 .elementor-element.elementor-element-38195eb{--display:flex;--flex-direction:row;--container-widget-width:initial;--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--gap:0px 0px;--row-gap:0px;--column-gap:0px;}.elementor-37 .elementor-element.elementor-element-30930cf{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;}.elementor-37 .elementor-element.elementor-element-27c53f5 .elementor-wrapper{--video-aspect-ratio:1.77777;}.elementor-37 .elementor-element.elementor-element-486b388{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;}.elementor-37 .elementor-element.elementor-element-77cbb18{--spacer-size:50px;}.elementor-37 .elementor-element.elementor-element-23bcafe > .elementor-widget-container{margin:1em 0em 0em 0em;}.elementor-37 .elementor-element.elementor-element-23bcafe{text-align:center;}.elementor-37 .elementor-element.elementor-element-23bcafe .elementor-heading-title{font-family:"OptimaLT", Sans-serif;font-size:26px;font-weight:500;text-transform:uppercase;color:#454545;}.elementor-37 .elementor-element.elementor-element-eb492e2{column-gap:0px;text-align:center;font-family:"Montserrat", Sans-serif;font-size:14px;font-weight:400;color:#818181;}.elementor-37 .elementor-element.elementor-element-63e0975{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;}.elementor-37 .elementor-element.elementor-element-c646e26{--spacer-size:50px;}.elementor-37 .elementor-element.elementor-element-ba51961{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;}.elementor-37 .elementor-element.elementor-element-e174792{--e-image-carousel-slides-to-show:5;}.elementor-37 .elementor-element.elementor-element-099a4ca{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--border-radius:7px 7px 7px 7px;box-shadow:0px 0px 10px 0px rgba(10.200000000000001, 0.46565217391304303, 0.46565217391304303, 0.5);}.elementor-37 .elementor-element.elementor-element-ed3872d.elementor-element{--flex-grow:1;--flex-shrink:1;}:root{--page-title-display:none;}@media(min-width:768px){.elementor-37 .elementor-element.elementor-element-9d15a5e{--width:50%;}.elementor-37 .elementor-element.elementor-element-b184df3{--width:50%;}.elementor-37 .elementor-element.elementor-element-225715d{width:42.977%;}.elementor-37 .elementor-element.elementor-element-e0bf918{width:57.023%;}.elementor-37 .elementor-element.elementor-element-30930cf{--width:50%;}.elementor-37 .elementor-element.elementor-element-486b388{--width:50%;}}@media(max-width:1024px) and (min-width:768px){.elementor-37 .elementor-element.elementor-element-225715d{width:49%;}.elementor-37 .elementor-element.elementor-element-e0bf918{width:50%;}}@media(min-width:1025px){.elementor-37 .elementor-element.elementor-element-7d463de:not(.elementor-motion-effects-element-type-background), .elementor-37 .elementor-element.elementor-element-7d463de > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-attachment:fixed;}}@media(max-width:1024px){.elementor-widget-slides .elementor-slide-heading{font-size:var( --e-global-typography-primary-font-size );}.elementor-widget-heading .elementor-heading-title{font-size:var( --e-global-typography-primary-font-size );}.elementor-bc-flex-widget .elementor-37 .elementor-element.elementor-element-7fe9eb4.elementor-column .elementor-widget-wrap{align-items:center;}.elementor-37 .elementor-element.elementor-element-7fe9eb4.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{align-content:center;align-items:center;}.elementor-37 .elementor-element.elementor-element-7fe9eb4.elementor-column > .elementor-widget-wrap{justify-content:center;}.elementor-37 .elementor-element.elementor-element-97f4e07 .swiper-slide{height:55vh;}.elementor-37 .elementor-element.elementor-element-56b3902 > .elementor-element-populated{margin:0em 0em 0em 0em;--e-column-margin-right:0em;--e-column-margin-left:0em;}.elementor-37 .elementor-element.elementor-element-8181395 > .elementor-element-populated{margin:0em 0em 0em 0em;--e-column-margin-right:0em;--e-column-margin-left:0em;}.elementor-bc-flex-widget .elementor-37 .elementor-element.elementor-element-986b035.elementor-column .elementor-widget-wrap{align-items:center;}.elementor-37 .elementor-element.elementor-element-986b035.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{align-content:center;align-items:center;}.elementor-37 .elementor-element.elementor-element-986b035.elementor-column > .elementor-widget-wrap{justify-content:center;}.elementor-37 .elementor-element.elementor-element-db9183f .swiper-slide{height:55vh;}.elementor-bc-flex-widget .elementor-37 .elementor-element.elementor-element-5d55253.elementor-column .elementor-widget-wrap{align-items:center;}.elementor-37 .elementor-element.elementor-element-5d55253.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{align-content:center;align-items:center;}.elementor-37 .elementor-element.elementor-element-5d55253.elementor-column > .elementor-widget-wrap{justify-content:center;}.elementor-37 .elementor-element.elementor-element-9e2f897 .swiper-slide{height:55vh;}.elementor-37 .elementor-element.elementor-element-3af547b > .elementor-element-populated{margin:0em 0em 0em 0em;--e-column-margin-right:0em;--e-column-margin-left:0em;}.elementor-37 .elementor-element.elementor-element-fcaced7 > .elementor-element-populated{margin:0em 0em 0em 0em;--e-column-margin-right:0em;--e-column-margin-left:0em;}.elementor-bc-flex-widget .elementor-37 .elementor-element.elementor-element-4a8da1e.elementor-column .elementor-widget-wrap{align-items:center;}.elementor-37 .elementor-element.elementor-element-4a8da1e.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{align-content:center;align-items:center;}.elementor-37 .elementor-element.elementor-element-4a8da1e.elementor-column > .elementor-widget-wrap{justify-content:center;}.elementor-37 .elementor-element.elementor-element-1878e69 .swiper-slide{height:55vh;}.elementor-bc-flex-widget .elementor-37 .elementor-element.elementor-element-fd9ba95.elementor-column .elementor-widget-wrap{align-items:center;}.elementor-37 .elementor-element.elementor-element-fd9ba95.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{align-content:center;align-items:center;}.elementor-37 .elementor-element.elementor-element-fd9ba95.elementor-column > .elementor-widget-wrap{justify-content:center;}.elementor-37 .elementor-element.elementor-element-50d8de9 .swiper-slide{height:55vh;}.elementor-37 .elementor-element.elementor-element-8d76304 > .elementor-element-populated{margin:0em 0em 0em 0em;--e-column-margin-right:0em;--e-column-margin-left:0em;}.elementor-37 .elementor-element.elementor-element-225715d > .elementor-element-populated{margin:1em 1em 1em 1em;--e-column-margin-right:1em;--e-column-margin-left:1em;}.elementor-37 .elementor-element.elementor-element-e0bf918 > .elementor-element-populated{margin:0em 0em 0em 0em;--e-column-margin-right:0em;--e-column-margin-left:0em;}.elementor-37 .elementor-element.elementor-element-88a5a93 .swiper-slide{height:55vh;}}@media(max-width:767px){.elementor-37 .elementor-element.elementor-element-dce8dff{--min-height:291px;}.elementor-widget-slides .elementor-slide-heading{font-size:var( --e-global-typography-primary-font-size );}.elementor-37 .elementor-element.elementor-element-9b1faf9 .swiper-slide{height:100vh;}.elementor-widget-heading .elementor-heading-title{font-size:var( --e-global-typography-primary-font-size );}.elementor-37 .elementor-element.elementor-element-97f4e07 .swiper-slide{height:55vh;}.elementor-37 .elementor-element.elementor-element-56b3902 > .elementor-element-populated{margin:0em 0em 0em 0em;--e-column-margin-right:0em;--e-column-margin-left:0em;}.elementor-37 .elementor-element.elementor-element-eb37302{text-align:center;}.elementor-37 .elementor-element.elementor-element-eb37302 .elementor-heading-title{font-size:20px;}.elementor-37 .elementor-element.elementor-element-5572df5{font-size:13px;}.elementor-37 .elementor-element.elementor-element-ebe3a2a .elementor-button{font-size:18px;}.elementor-37 .elementor-element.elementor-element-8181395 > .elementor-element-populated{margin:0em 0em 0em 0em;--e-column-margin-right:0em;--e-column-margin-left:0em;}.elementor-37 .elementor-element.elementor-element-6d0beeb{text-align:center;}.elementor-37 .elementor-element.elementor-element-6d0beeb .elementor-heading-title{font-size:20px;}.elementor-37 .elementor-element.elementor-element-c895d04{font-size:13px;}.elementor-37 .elementor-element.elementor-element-3a9e9d3 .elementor-button{font-size:18px;}.elementor-37 .elementor-element.elementor-element-db9183f .swiper-slide{height:55vh;}.elementor-37 .elementor-element.elementor-element-9e2f897 .swiper-slide{height:55vh;}.elementor-37 .elementor-element.elementor-element-15a93f2 .elementor-button{font-size:18px;}.elementor-37 .elementor-element.elementor-element-3af547b > .elementor-element-populated{margin:0em 0em 0em 0em;--e-column-margin-right:0em;--e-column-margin-left:0em;}.elementor-37 .elementor-element.elementor-element-4f8d079{text-align:center;}.elementor-37 .elementor-element.elementor-element-4f8d079 .elementor-heading-title{font-size:20px;}.elementor-37 .elementor-element.elementor-element-a9ece9b{font-size:13px;}.elementor-37 .elementor-element.elementor-element-fcaced7 > .elementor-element-populated{margin:0em 0em 0em 0em;--e-column-margin-right:0em;--e-column-margin-left:0em;}.elementor-37 .elementor-element.elementor-element-d2b61b4{text-align:center;}.elementor-37 .elementor-element.elementor-element-d2b61b4 .elementor-heading-title{font-size:20px;}.elementor-37 .elementor-element.elementor-element-a12fae1{font-size:13px;}.elementor-37 .elementor-element.elementor-element-1e95118 .elementor-button{font-size:18px;}.elementor-37 .elementor-element.elementor-element-1878e69 .swiper-slide{height:55vh;}.elementor-37 .elementor-element.elementor-element-50d8de9 .swiper-slide{height:55vh;}.elementor-37 .elementor-element.elementor-element-d557222 .elementor-button{font-size:18px;}.elementor-37 .elementor-element.elementor-element-8d76304 > .elementor-element-populated{margin:0em 0em 0em 0em;--e-column-margin-right:0em;--e-column-margin-left:0em;}.elementor-37 .elementor-element.elementor-element-1c28c18{text-align:center;}.elementor-37 .elementor-element.elementor-element-1c28c18 .elementor-heading-title{font-size:20px;}.elementor-37 .elementor-element.elementor-element-b34be97{font-size:13px;}.elementor-37 .elementor-element.elementor-element-225715d > .elementor-element-populated{margin:1em 1em 1em 1em;--e-column-margin-right:1em;--e-column-margin-left:1em;padding:1em 1em 1em 1em;}.elementor-37 .elementor-element.elementor-element-5be5fb7{text-align:center;}.elementor-37 .elementor-element.elementor-element-5be5fb7 .elementor-heading-title{font-size:20px;}.elementor-37 .elementor-element.elementor-element-35dca86{font-size:14px;}.elementor-37 .elementor-element.elementor-element-144773f .elementor-button{font-size:18px;}.elementor-37 .elementor-element.elementor-element-e0bf918 > .elementor-element-populated{margin:0em 0em 0em 0em;--e-column-margin-right:0em;--e-column-margin-left:0em;}.elementor-37 .elementor-element.elementor-element-88a5a93 .swiper-slide{height:55vh;}.elementor-37 .elementor-element.elementor-element-7d463de > .elementor-container{min-height:483px;}.elementor-37 .elementor-element.elementor-element-7d463de{margin-top:0em;margin-bottom:0em;padding:0em 0em 7em 0em;}.elementor-37 .elementor-element.elementor-element-23bcafe{text-align:center;}.elementor-37 .elementor-element.elementor-element-23bcafe .elementor-heading-title{font-size:20px;}}/* Start custom CSS for column, class: .elementor-element-281c7a1 */.booking_container input, .booking_container select {
+width: unset !important;
+}/* End custom CSS */
+/* Start custom CSS */.snow-bg {
+   position: relative;
+}
+
+.snow-bg:after {
+   content: '';
+   display: block;
+   position: absolute;
+   z-index: 20000;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   pointer-events: none;
+   background-image: url('https://library.elementor.com/resources/christmas-snow-effect/s1.png'), url('https://library.elementor.com/resources/christmas-snow-effect/s2.png'), url('https://library.elementor.com/resources/christmas-snow-effect/s3.png');
+    animation: snow 10s linear infinite;
+}
+
+@keyframes snow {
+ 0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+ 50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+ 100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}/* End custom CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'OptimaLT';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://windsorgolfresort.travelbook-tech.com/wp-content/uploads/2023/06/OptimaLTStd.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'OptimaLT';
+	font-style: normal;
+	font-weight: bold;
+	font-display: auto;
+	src: url('https://windsorgolfresort.travelbook-tech.com/wp-content/uploads/2023/06/OptimaLTStd-Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'OptimaLT';
+	font-style: italic;
+	font-weight: bold;
+	font-display: auto;
+	src: url('https://windsorgolfresort.travelbook-tech.com/wp-content/uploads/2023/06/OptimaLTStd-BoldItalic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'OptimaLT';
+	font-style: italic;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://windsorgolfresort.travelbook-tech.com/wp-content/uploads/2023/06/OptimaLTStd-Italic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'OptimaLT';
+	font-style: normal;
+	font-weight: 500;
+	font-display: auto;
+	src: url('https://windsorgolfresort.travelbook-tech.com/wp-content/uploads/2023/06/OptimaLTStd-Medium.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */
+<!doctype html>
+<html dir="ltr" lang="en-US" prefix="og: https://ogp.me/ns#">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<title>Page not found &#8211; Masailand Safari &amp; Lodge</title>
+
+		<!-- All in One SEO 4.9.10 - aioseo.com -->
+	<meta name="robots" content="noindex" />
+	<meta name="generator" content="All in One SEO (AIOSEO) 4.9.10" />
+		<script type="application/ld+json" class="aioseo-schema">
+			{"@context":"https:\/\/schema.org","@graph":[{"@type":"BreadcrumbList","@id":"https:\/\/masailandsafari.com\/wp-content\/uploads\/elementor\/css\/global.css\/#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"https:\/\/masailandsafari.com#listItem","position":1,"name":"Home","item":"https:\/\/masailandsafari.com","nextItem":{"@type":"ListItem","@id":"#listItem","name":"404 - Page Not Found"}}]},{"@type":"Organization","@id":"https:\/\/masailandsafari.com\/#organization","name":"Cavo Maris","description":"Discover Unrivaled Tranquility and Exquisite Hospitality at Masailand Safari & Lodge","url":"https:\/\/masailandsafari.com\/"},{"@type":"WebPage","@id":"https:\/\/masailandsafari.com\/wp-content\/uploads\/elementor\/css\/global.css\/#webpage","url":"https:\/\/masailandsafari.com\/wp-content\/uploads\/elementor\/css\/global.css\/","inLanguage":"en-US","isPartOf":{"@id":"https:\/\/masailandsafari.com\/#website"},"breadcrumb":{"@id":"https:\/\/masailandsafari.com\/wp-content\/uploads\/elementor\/css\/global.css\/#breadcrumblist"}},{"@type":"WebSite","@id":"https:\/\/masailandsafari.com\/#website","url":"https:\/\/masailandsafari.com\/","name":"Cavo Maris","description":"Discover Unrivaled Tranquility and Exquisite Hospitality at Masailand Safari & Lodge","inLanguage":"en-US","publisher":{"@id":"https:\/\/masailandsafari.com\/#organization"}}]}
+		</script>
+		<!-- All in One SEO -->
+
+<link rel="alternate" type="application/rss+xml" title="Masailand Safari &amp; Lodge &raquo; Feed" href="https://masailandsafari.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Masailand Safari &amp; Lodge &raquo; Comments Feed" href="https://masailandsafari.com/comments/feed/" />
+		<style>
+			.lazyload,
+			.lazyloading {
+				max-width: 100%;
+			}
+		</style>
+		<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<link rel='stylesheet' id='aioseo/css/src/vue/standalone/blocks/table-of-contents/global.scss-css' href='https://masailandsafari.com/wp-content/plugins/all-in-one-seo-pack/dist/Lite/assets/css/table-of-contents/global.e90f6d47.css?ver=4.9.10' media='all' />
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:root { --wp--style--global--content-size: 800px;--wp--style--global--wide-size: 1200px; }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: 24px; margin-block-end: 0; }:where(.wp-site-blocks) > :first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child { margin-block-end: 0; }:root { --wp--style--block-gap: 24px; }:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-flex){gap: 24px;}:root :where(.is-layout-grid){gap: 24px;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:root :where(.wp-block-icon svg){width: 24px;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+<link rel='stylesheet' id='booking_widget_css-css' href='https://masailandsafari.com/wp-content/plugins/cavo_maris/style.css?ver=7.0.2' media='all' />
+<link rel='stylesheet' id='hello-elementor-css' href='https://masailandsafari.com/wp-content/themes/hello-elementor/assets/css/reset.css?ver=3.4.9' media='all' />
+<link rel='stylesheet' id='hello-elementor-theme-style-css' href='https://masailandsafari.com/wp-content/themes/hello-elementor/assets/css/theme.css?ver=3.4.9' media='all' />
+<link rel='stylesheet' id='hello-elementor-header-footer-css' href='https://masailandsafari.com/wp-content/themes/hello-elementor/assets/css/header-footer.css?ver=3.4.9' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='https://masailandsafari.com/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.2.1' media='all' />
+<link rel='stylesheet' id='elementor-post-7-css' href='https://masailandsafari.com/wp-content/uploads/elementor/css/post-7.css?ver=1785286074' media='all' />
+<link rel='stylesheet' id='widget-image-css' href='https://masailandsafari.com/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=4.2.1' media='all' />
+<link rel='stylesheet' id='widget-nav-menu-css' href='https://masailandsafari.com/wp-content/plugins/elementor-pro/assets/css/widget-nav-menu.min.css?ver=4.2.1' media='all' />
+<link rel='stylesheet' id='e-sticky-css' href='https://masailandsafari.com/wp-content/plugins/elementor-pro/assets/css/modules/sticky.min.css?ver=4.2.1' media='all' />
+<link rel='stylesheet' id='widget-heading-css' href='https://masailandsafari.com/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=4.2.1' media='all' />
+<link rel='stylesheet' id='e-animation-grow-css' href='https://masailandsafari.com/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-grow.min.css?ver=4.2.1' media='all' />
+<link rel='stylesheet' id='widget-social-icons-css' href='https://masailandsafari.com/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=4.2.1' media='all' />
+<link rel='stylesheet' id='e-apple-webkit-css' href='https://masailandsafari.com/wp-content/plugins/elementor/assets/css/conditionals/apple-webkit.min.css?ver=4.2.1' media='all' />
+<link rel='stylesheet' id='widget-divider-css' href='https://masailandsafari.com/wp-content/plugins/elementor/assets/css/widget-divider.min.css?ver=4.2.1' media='all' />
+<link rel='stylesheet' id='e-animation-fadeInLeft-css' href='https://masailandsafari.com/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInLeft.min.css?ver=4.2.1' media='all' />
+<link rel='stylesheet' id='e-popup-css' href='https://masailandsafari.com/wp-content/plugins/elementor-pro/assets/css/conditionals/popup.min.css?ver=4.2.1' media='all' />
+<link rel='stylesheet' id='elementor-icons-css' href='https://masailandsafari.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.53.0' media='all' />
+<link rel='stylesheet' id='elementor-post-8426-css' href='https://masailandsafari.com/wp-content/uploads/elementor/css/post-8426.css?ver=1785286075' media='all' />
+<link rel='stylesheet' id='elementor-post-132-css' href='https://masailandsafari.com/wp-content/uploads/elementor/css/post-132.css?ver=1785286075' media='all' />
+<link rel='stylesheet' id='elementor-post-48-css' href='https://masailandsafari.com/wp-content/uploads/elementor/css/post-48.css?ver=1785286075' media='all' />
+<style id="elementor-pro-custom-fonts-inline-css">
+@font-face {
+	font-family: 'OptimaLT';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://windsorgolfresort.travelbook-tech.com/wp-content/uploads/2023/06/OptimaLTStd.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'OptimaLT';
+	font-style: normal;
+	font-weight: bold;
+	font-display: auto;
+	src: url('https://windsorgolfresort.travelbook-tech.com/wp-content/uploads/2023/06/OptimaLTStd-Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'OptimaLT';
+	font-style: italic;
+	font-weight: bold;
+	font-display: auto;
+	src: url('https://windsorgolfresort.travelbook-tech.com/wp-content/uploads/2023/06/OptimaLTStd-BoldItalic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'OptimaLT';
+	font-style: italic;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://windsorgolfresort.travelbook-tech.com/wp-content/uploads/2023/06/OptimaLTStd-Italic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'OptimaLT';
+	font-style: normal;
+	font-weight: 500;
+	font-display: auto;
+	src: url('https://windsorgolfresort.travelbook-tech.com/wp-content/uploads/2023/06/OptimaLTStd-Medium.ttf') format('truetype');
+}
+
+/*# sourceURL=elementor-pro-custom-fonts-inline-css */
+</style>
+<link rel='stylesheet' id='elementor-gf-local-robotoslab-css' href='https://masailandsafari.com/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1742298471' media='all' />
+<link rel='stylesheet' id='elementor-gf-local-roboto-css' href='https://masailandsafari.com/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1742298477' media='all' />
+<link rel='stylesheet' id='elementor-gf-local-poppins-css' href='https://masailandsafari.com/wp-content/uploads/elementor/google-fonts/css/poppins.css?ver=1742298486' media='all' />
+<link rel='stylesheet' id='elementor-gf-local-josefinsans-css' href='https://masailandsafari.com/wp-content/uploads/elementor/google-fonts/css/josefinsans.css?ver=1742298478' media='all' />
+<link rel='stylesheet' id='elementor-gf-local-montserrat-css' href='https://masailandsafari.com/wp-content/uploads/elementor/google-fonts/css/montserrat.css?ver=1742298485' media='all' />
+<link rel='stylesheet' id='elementor-icons-shared-0-css' href='https://masailandsafari.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-solid-css' href='https://masailandsafari.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-brands-css' href='https://masailandsafari.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3' media='all' />
+<script id="otatool-js" src="https://masailandsafari.com/wp-content/plugins/tbg-ota-tool-21712/js/otatool.js?ver=7.0.2"></script>
+<script id="jquery-core-js" src="https://masailandsafari.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://masailandsafari.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<link rel="https://api.w.org/" href="https://masailandsafari.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://masailandsafari.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.0.2" />
+<!-- HFCM by 99 Robots - Snippet # 5: GTM -->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5DVTWTN');</script>
+<!-- End Google Tag Manager -->
+<!-- /end HFCM by 99 Robots -->
+		<script>
+			document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+		</script>
+				<style>
+			.no-js img.lazyload {
+				display: none;
+			}
+
+			figure.wp-block-image img.lazyloading {
+				min-width: 150px;
+			}
+
+			.lazyload,
+			.lazyloading {
+				--smush-placeholder-width: 100px;
+				--smush-placeholder-bg-max-width: 120px;
+				--smush-placeholder-aspect-ratio: 1/1;
+				width: var(--smush-image-width, var(--smush-placeholder-width)) !important;
+				aspect-ratio: var(--smush-image-aspect-ratio, var(--smush-placeholder-aspect-ratio)) !important;
+			}
+
+						.lazyload, .lazyloading {
+				opacity: 0;
+			}
+
+			.lazyloaded {
+				opacity: 1;
+				transition: opacity 400ms;
+				transition-delay: 0ms;
+			}
+
+					</style>
+		<meta name="generator" content="Elementor 4.2.1; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto">
+<script>
+jQuery(document).ready(function($) {
+var delay = 100; setTimeout(function() {
+$('.elementor-tab-title').removeClass('elementor-active');
+ $('.elementor-tab-content').css('display', 'none'); }, delay);
+});
+</script>
+			<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+			</head>
+<body class="error404 wp-embed-responsive wp-theme-hello-elementor hello-elementor-default elementor-default elementor-kit-7">
+
+
+<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+		<header data-elementor-type="header" data-elementor-id="8426" class="elementor elementor-8426 elementor-location-header" data-elementor-post-type="elementor_library">
+			<main class="elementor-element elementor-element-3ee7c97 e-con-full elementor-hidden-desktop elementor-hidden-tablet e-flex e-con e-parent" data-id="3ee7c97" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0,&quot;sticky_anchor_link_offset&quot;:0}">
+		<div class="elementor-element elementor-element-1664178 e-con-full e-flex e-con e-child" data-id="1664178" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-75750ab elementor-widget elementor-widget-image" data-id="75750ab" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="https://masailandsafari.com">
+							<img fetchpriority="high" width="300" height="189" src="https://masailandsafari.com/wp-content/uploads/2023/09/LOGO-MASAILAND-no-background-e1694622899694-1.png" class="attachment-full size-full wp-image-8893" alt="" />								</a>
+															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-a1536d8 e-con-full e-flex e-con e-child" data-id="a1536d8" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-9914209 elementor-nav-menu--stretch elementor-widget__width-auto elementor-nav-menu__text-align-center elementor-nav-menu__align-start elementor-widget-tablet__width-initial elementor-absolute elementor-nav-menu--dropdown-mobile elementor-widget-mobile__width-auto elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="9914209" data-element_type="widget" data-e-type="widget" data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;_position&quot;:&quot;absolute&quot;,&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot; aria-hidden=\&quot;true\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+								<nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-background e--animation-sweep-right">
+				<ul id="menu-1-9914209" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-45"><a href="https://masailandsafari.com/" class="elementor-item">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1886"><a href="https://masailandsafari.com/rooms-suites/" class="elementor-item">Rooms &#038; Suites</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1714"><a href="https://masailandsafari.com/wine-dine/" class="elementor-item">Wine &#038; Dine</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2309"><a href="https://masailandsafari.com/conferences/" class="elementor-item">Conferences &#038; Events</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2409"><a href="https://masailandsafari.com/wellness/" class="elementor-item">Wellness</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2621"><a href="https://masailandsafari.com/gallery/" class="elementor-item">Gallery</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2627"><a href="https://masailandsafari.com/contact/" class="elementor-item">Contact Us</a></li>
+</ul>			</nav>
+					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
+			<i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open eicon-menu-bar"></i><i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close eicon-close"></i>		</div>
+					<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-9914209" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-45"><a href="https://masailandsafari.com/" class="elementor-item" tabindex="-1">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1886"><a href="https://masailandsafari.com/rooms-suites/" class="elementor-item" tabindex="-1">Rooms &#038; Suites</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1714"><a href="https://masailandsafari.com/wine-dine/" class="elementor-item" tabindex="-1">Wine &#038; Dine</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2309"><a href="https://masailandsafari.com/conferences/" class="elementor-item" tabindex="-1">Conferences &#038; Events</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2409"><a href="https://masailandsafari.com/wellness/" class="elementor-item" tabindex="-1">Wellness</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2621"><a href="https://masailandsafari.com/gallery/" class="elementor-item" tabindex="-1">Gallery</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2627"><a href="https://masailandsafari.com/contact/" class="elementor-item" tabindex="-1">Contact Us</a></li>
+</ul>			</nav>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-87a9bf7 elementor-widget__width-auto elementor-align-left elementor-absolute elementor-mobile-align-center elementor-widget-mobile__width-initial elementor-widget elementor-widget-button" data-id="87a9bf7" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-xs" href="https://book.travelbookgroup.com/premium/index.html?id_albergo=21712&#038;dc=6833&#038;lingua_int=eng&#038;id_stile=16362">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Book now</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				</div>
+				</main>
+		<main class="elementor-element elementor-element-6529e6b0 e-con-full elementor-hidden-mobile e-flex e-con e-parent" data-id="6529e6b0" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0,&quot;sticky_anchor_link_offset&quot;:0}">
+		<div class="elementor-element elementor-element-10e557fe e-con-full e-flex e-con e-child" data-id="10e557fe" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-30c2db49 elementor-widget elementor-widget-image" data-id="30c2db49" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="https://masailandsafari.com">
+							<img fetchpriority="high" width="300" height="189" src="https://masailandsafari.com/wp-content/uploads/2023/09/LOGO-MASAILAND-no-background-e1694622899694-1.png" class="attachment-full size-full wp-image-8893" alt="" />								</a>
+															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-6ffa9ea5 e-con-full e-flex e-con e-child" data-id="6ffa9ea5" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-1c4573a8 elementor-nav-menu--stretch elementor-widget__width-auto elementor-nav-menu__text-align-center elementor-nav-menu__align-center elementor-widget-tablet__width-initial elementor-nav-menu--dropdown-tablet elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="1c4573a8" data-element_type="widget" data-e-type="widget" data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot; aria-hidden=\&quot;true\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+								<nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-background e--animation-sweep-right">
+				<ul id="menu-1-1c4573a8" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-45"><a href="https://masailandsafari.com/" class="elementor-item">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1886"><a href="https://masailandsafari.com/rooms-suites/" class="elementor-item">Rooms &#038; Suites</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1714"><a href="https://masailandsafari.com/wine-dine/" class="elementor-item">Wine &#038; Dine</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2309"><a href="https://masailandsafari.com/conferences/" class="elementor-item">Conferences &#038; Events</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2409"><a href="https://masailandsafari.com/wellness/" class="elementor-item">Wellness</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2621"><a href="https://masailandsafari.com/gallery/" class="elementor-item">Gallery</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2627"><a href="https://masailandsafari.com/contact/" class="elementor-item">Contact Us</a></li>
+</ul>			</nav>
+					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
+			<i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open eicon-menu-bar"></i><i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close eicon-close"></i>		</div>
+					<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-1c4573a8" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-45"><a href="https://masailandsafari.com/" class="elementor-item" tabindex="-1">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1886"><a href="https://masailandsafari.com/rooms-suites/" class="elementor-item" tabindex="-1">Rooms &#038; Suites</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1714"><a href="https://masailandsafari.com/wine-dine/" class="elementor-item" tabindex="-1">Wine &#038; Dine</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2309"><a href="https://masailandsafari.com/conferences/" class="elementor-item" tabindex="-1">Conferences &#038; Events</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2409"><a href="https://masailandsafari.com/wellness/" class="elementor-item" tabindex="-1">Wellness</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2621"><a href="https://masailandsafari.com/gallery/" class="elementor-item" tabindex="-1">Gallery</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2627"><a href="https://masailandsafari.com/contact/" class="elementor-item" tabindex="-1">Contact Us</a></li>
+</ul>			</nav>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-7f128094 elementor-widget__width-auto elementor-align-left elementor-widget elementor-widget-button" data-id="7f128094" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-xs" href="https://book.travelbookgroup.com/premium/index.html?id_albergo=21712&#038;dc=6833&#038;lingua_int=eng&#038;id_stile=16362">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Book now</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				</div>
+				</main>
+				</header>
+		<main id="content" class="site-main">
+
+	
+	<div class="page-content">
+		<p>It looks like nothing was found at this location.</p>
+	</div>
+
+</main>
+		<footer data-elementor-type="footer" data-elementor-id="132" class="elementor elementor-132 elementor-location-footer" data-elementor-post-type="elementor_library">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-ecae121 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ecae121" data-element_type="section" data-e-type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-1fae918" data-id="1fae918" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-1fb0d0a elementor-widget elementor-widget-heading" data-id="1fb0d0a" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Contact Us
+</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-b94a410 elementor-widget elementor-widget-text-editor" data-id="b94a410" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p><span style="text-decoration: underline;"><strong>Masailand Safari &amp; Lodge</strong></span></p><p><strong>Address:</strong> Arumeru Arusha, 1531, Tanzania</p><p><a href="tel:+255 624 71 20 20"><strong>Tel:</strong> +255 624 71 20 20</a></p><p><a href="te: +255 624 72 20 20"><strong>Fax:</strong> +255 624 72 20 20</a></p><p><strong>Email:</strong> <a href="mailto:info@masailandsafari.com">info@masailandsafari.com</a></p>								</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-3bdf008" data-id="3bdf008" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-a22fb94 elementor-widget elementor-widget-heading" data-id="a22fb94" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">connect with us</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-7980ec6 elementor-shape-circle elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons" data-id="7980ec6" data-element_type="widget" data-e-type="widget" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-social-icons-wrapper elementor-grid">
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-animation-grow elementor-repeater-item-721753b" href="https://www.instagram.com/masailandsafariandlodge/" target="_blank">
+						<span class="elementor-screen-only">Instagram</span>
+						<i aria-hidden="true" class="fab fa-instagram"></i>					</a>
+				</span>
+					</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-8c64953 elementor-widget elementor-widget-text-editor" data-id="8c64953" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p><a href="https://masailandsafari.com/terms-conditions/">Terms &amp; Conditions</a></p>								</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-0258abd" data-id="0258abd" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-3471dd1 elementor-widget elementor-widget-html" data-id="3471dd1" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+					<style>
+    #footer_tbg_section {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+        justify-content: center;
+
+        font-size: 13px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 400;
+    }
+
+    #footer_tbg_section div {
+        margin: 0;
+        padding: 0;
+        line-height: 1rem;
+    }
+
+    #footer_tbg_section .footer_tbh,
+    #footer_tbg_section .footer_tbg {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    #footer_tbg_section h3 {
+        margin: .5em;
+        padding: 0;
+        color: inherit;
+        font: inherit;
+    }
+
+    #footer_tbg_section svg {
+        height: 40px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #footer_tbg_section a {
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        color: inherit;
+        font: inherit;
+        font-size: 18px;
+    }
+</style>
+<div id="footer_tbg_section">
+    <div class="footer_tbh">
+        <h3>affiliated with</h3>
+        <a href="https://travelbookhotels.com/">
+            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 335.56 85.24">
+                <defs>
+                    <style>
+                        .cls-1 {
+                            fill: #48bccf;
+                        }
+
+                        .cls-1,
+                        .cls-2 {
+                            stroke-width: 0px;
+                        }
+
+                        .cls-2 {
+                            fill: #1f335f;
+                        }
+                    </style>
+                </defs>
+                <title>Travelbook Hotels</title>
+                <path class="cls-2"
+                    d="m83.15,6.33h-12.43c0-3.48,2.8-6.31,6.28-6.33h25.37v.07c0,3.45-2.79,6.25-6.24,6.26,0,0,0,0-.01,0h-6.12v28.19c0,3.22-2.6,5.83-5.82,5.84,0,0-.01,0-.02,0h-1V6.33Z" />
+                <path class="cls-2"
+                    d="m99.24,11.4h6.76v4.74h.11c1.8-2.89,4.91-5.29,10.42-5.29h.43l-.26,6.15c-.6-.07-1.2-.1-1.8-.11-3.69-.1-7.13,1.87-8.9,5.11v18.36h-6.76V11.4Z" />
+                <path class="cls-2"
+                    d="m117.35,33.38c0-6.27,5.34-10.47,18.87-12v-.87c0-2.89-1.53-4.15-4.75-4.15-4,0-7.3,2-9.76,3.93l-3.27-4.2c3.85-3.43,8.84-5.3,14-5.24,7.75,0,10.42,3.71,10.42,10.48v11.94c0,3.49.22,5.62.82,7.09h-6.76c-.45-1.19-.67-2.44-.66-3.71-2.95,3-6.38,4.15-10.69,4.15-4.73,0-8.22-2.62-8.22-7.42Zm18.87-1.09v-6.38c-8.02,1.09-12.22,3.09-12.22,6.22,0,2.29,1.58,3.49,4,3.49,3.07.03,6.03-1.17,8.22-3.33Z" />
+                <path class="cls-2" d="m144.62,11.4h7l7.09,21.38h.11l7-21.38h6.49l-10.47,29h-6.82l-10.4-29Z" />
+                <path class="cls-2"
+                    d="m172.05,25.91c0-11,7.8-15.06,13.8-15.06,6.49,0,12.71,3.88,12.71,15.66v1.58h-19.8c.27,5.23,3.49,7.53,7.74,7.53,3.08.12,6.05-1.12,8.13-3.39l3.54,3.5c-3.07,3.48-7.53,5.41-12.17,5.27-7.24,0-13.95-4.46-13.95-15.09Zm20.35-2.84c-.39-4.42-2.57-6.76-6.61-6.76-3.27,0-6.27,1.85-6.92,6.76h13.53Z" />
+                <path class="cls-2" d="m203.14,0h6.76v40.36h-6.76V0Z" />
+                <path class="cls-2"
+                    d="m222.82,37.14v3.22h-6.7V0h6.7v15.22c2.24-2.78,5.61-4.39,9.18-4.37,6.6,0,11.45,5,11.45,15s-5,14.95-12.38,14.95c-3.15,0-6.15-1.32-8.25-3.66Zm14-11.23c0-6.11-2.62-9.33-6.93-9.33-2.74.18-5.28,1.51-7,3.65v11.62c1.6,2.18,4.12,3.51,6.82,3.6,5,0,7.08-3.11,7.08-9.54h.03Z" />
+                <path class="cls-2"
+                    d="m246.22,25.91c0-10.69,7-15.06,14.13-15.06s14.12,4.37,14.12,15.06-7.09,15.09-14.12,15.09-14.13-4.51-14.13-15.09Zm21.49,0c0-5.4-2.29-9.33-7.36-9.33s-7.37,3.49-7.37,9.33c0,5.51,2.24,9.43,7.37,9.43,4.85,0,7.36-3.49,7.36-9.43Z" />
+                <path class="cls-2"
+                    d="m277.14,25.91c0-10.69,7-15.06,14.13-15.06s14.13,4.37,14.13,15.06-7.09,15.09-14.13,15.09-14.13-4.51-14.13-15.09Zm21.49,0c0-5.4-2.29-9.33-7.36-9.33s-7.36,3.49-7.36,9.33c0,5.51,2.23,9.43,7.36,9.43,4.85,0,7.36-3.49,7.36-9.43Z" />
+                <path class="cls-2"
+                    d="m309.7,0h6.71v24.05l11-12.65h7.37l-9.48,10.6,10.26,18.38h-7l-7.47-13.42-4.68,5.04v8.34h-6.71V0Z" />
+                <path class="cls-1"
+                    d="m83.07,44.28h.14c3.69,0,6.68,2.99,6.68,6.68,0,.01,0,.03,0,.04v9.41h18.32v-16.13h6.79v33.54c0,3.77-3.05,6.82-6.82,6.82h0v-18h-18.29v18h-6.82v-40.36Z" />
+                <path class="cls-1"
+                    d="m120.15,70.18c0-10.69,7-15.05,14.13-15.05s14.12,4.36,14.12,15.05-7.08,15.06-14.12,15.06-14.13-4.47-14.13-15.06Zm21.49,0c0-5.4-2.29-9.32-7.36-9.32s-7.36,3.49-7.36,9.32c0,5.51,2.23,9.44,7.36,9.44,4.85,0,7.36-3.49,7.36-9.44Z" />
+                <path class="cls-1"
+                    d="m155,77.06v-16.06h-5v-5.32h5v-10.09h6.71v10.09h7.48v5.32h-7.48v14.37c0,3.1.93,4.36,4.26,4.36.98,0,1.95-.12,2.89-.38v5.29c-1.61.24-3.23.36-4.86.36-7.42,0-9-2.71-9-7.94Z" />
+                <path class="cls-1"
+                    d="m171.2,70.18c0-11,7.8-15.05,13.8-15.05,6.49,0,12.71,3.87,12.71,15.65v1.59h-19.8c.27,5.23,3.49,7.52,7.75,7.52,3.07.12,6.04-1.12,8.12-3.38l3.55,3.49c-3.08,3.46-7.54,5.38-12.17,5.24-7.25,0-13.96-4.42-13.96-15.06Zm20.35-2.83c-.39-4.42-2.57-6.76-6.6-6.76-3.28,0-6.28,1.85-6.93,6.76h13.53Z" />
+                <path class="cls-1" d="m202.29,44.28h6.76v40.36h-6.76v-40.36Z" />
+                <path class="cls-1"
+                    d="m213.09,80.66l3.65-4.09c2.54,2.17,5.77,3.39,9.11,3.43,3.6,0,5.78-.93,5.78-3.32s-2.94-3.06-6.44-3.88c-5-1.14-10.91-2.45-10.91-9.16,0-5.07,4.37-8.51,10.75-8.51,5.51,0,8.89,1.58,11.89,4.09l-3.22,4.37c-2.33-1.88-5.19-2.98-8.18-3.17-3.71,0-4.91,1.31-4.91,2.95,0,2.34,2.89,3.05,6.33,3.81,5,1.09,11,2.35,11,9.11,0,6.11-5.51,8.95-12.11,8.95-5.33,0-10.13-1.91-12.74-4.58Z" />
+                <path class="cls-2"
+                    d="m64.69,36.33l-18.93,34.94c-5.76,10.61-18.38,15.87-29.76,11.73C3.4,78.42-3.1,64.49,1.48,51.88c.4-1.1.88-2.17,1.43-3.19l13.44-24.81c1.03-1.91,3.42-2.63,5.34-1.6,0,0,0,0,.01,0l17.46,9.45c5.75,3.22,13.02,1.25,16.37-4.43,3.2-5.72,1.15-12.95-4.58-16.15-4.46-2.49-10.01-1.85-13.78,1.59-1.65,1.57-4.12,1.92-6.14.87l-.39-.21c-2.53-1.37-3.47-4.53-2.11-7.06.41-.76,1-1.41,1.73-1.88,11.25-7.24,26.23-4,33.48,7.25,4.78,7.42,5.14,16.84.95,24.61Z" />
+            </svg>
+        </a>
+    </div>
+    <div class="footer_tbg">
+        <h3>a brand by</h3>
+        <a href="https://travelbookgroup.com/">
+            The Travelbook Group
+        </a>
+    </div>
+</div>				</div>
+				</div>
+				<div class="elementor-element elementor-element-4823e22 elementor-widget elementor-widget-heading" data-id="4823e22" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Affiliated with</h2>				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-296b6d7 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="296b6d7" data-element_type="section" data-e-type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-cca16b3" data-id="cca16b3" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-3e7b087 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="3e7b087" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-222cd2f elementor-widget elementor-widget-heading" data-id="222cd2f" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<p class="elementor-heading-title elementor-size-default">Copyright @ 2023 Masailand Safari &amp; Lodge. All rights reserved.</p>				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</footer>
+		
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/hello-elementor/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<!-- HFCM by 99 Robots - Snippet # 3: sojern - everywhere else -->
+<!-- Sojern Tag v6_js, Pixel Version: 1 -->
+<script>
+(function () {
+
+var params = {};
+
+/* Please do not modify the below code. */
+var cid = [];
+var paramsArr = [];
+var cidParams = [];
+var pl = document.createElement('script');
+var defaultParams = {"vid":"hot"};
+for(key in defaultParams) { params[key] = defaultParams[key]; };
+for(key in cidParams) { cid.push(params[cidParams[key]]); };
+params.cid = cid.join('|');
+for(key in params) { paramsArr.push(key + '=' + encodeURIComponent(params[key])) };
+pl.type = 'text/javascript';
+pl.async = true;
+pl.src = 'https://beacon.sojern.com/pixel/p/276462?f_v=v6_js&p_v=1&' + paramsArr.join('&');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(pl);
+})();
+</script>
+<!-- End Sojern Tag -->
+
+<!-- /end HFCM by 99 Robots -->
+		<div data-elementor-type="popup" data-elementor-id="48" class="elementor elementor-48 elementor-location-popup" data-elementor-settings="{&quot;entrance_animation&quot;:&quot;fadeInLeft&quot;,&quot;exit_animation&quot;:&quot;fadeInLeft&quot;,&quot;entrance_animation_duration&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1,&quot;sizes&quot;:[]},&quot;a11y_navigation&quot;:&quot;yes&quot;,&quot;triggers&quot;:[],&quot;timing&quot;:[]}" data-elementor-post-type="elementor_library">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-7359166 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7359166" data-element_type="section" data-e-type="section">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d487e04" data-id="d487e04" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-d7d790e elementor-nav-menu__text-align-aside elementor-widget elementor-widget-nav-menu" data-id="d7d790e" data-element_type="widget" data-e-type="widget" data-settings="{&quot;layout&quot;:&quot;dropdown&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-chevron-down\&quot; aria-hidden=\&quot;true\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+								<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-d7d790e" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-45"><a href="https://masailandsafari.com/" class="elementor-item" tabindex="-1">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1886"><a href="https://masailandsafari.com/rooms-suites/" class="elementor-item" tabindex="-1">Rooms &#038; Suites</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1714"><a href="https://masailandsafari.com/wine-dine/" class="elementor-item" tabindex="-1">Wine &#038; Dine</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2309"><a href="https://masailandsafari.com/conferences/" class="elementor-item" tabindex="-1">Conferences &#038; Events</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2409"><a href="https://masailandsafari.com/wellness/" class="elementor-item" tabindex="-1">Wellness</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2621"><a href="https://masailandsafari.com/gallery/" class="elementor-item" tabindex="-1">Gallery</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2627"><a href="https://masailandsafari.com/contact/" class="elementor-item" tabindex="-1">Contact Us</a></li>
+</ul>			</nav>
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+					<script>
+				( () => {
+					const lazyloadRunObserver = () => {
+						const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+						const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+							entries.forEach( ( entry ) => {
+								if ( entry.isIntersecting ) {
+									let lazyloadBackground = entry.target;
+									if( lazyloadBackground ) {
+										lazyloadBackground.classList.add( 'e-lazyloaded' );
+									}
+									lazyloadBackgroundObserver.unobserve( entry.target );
+								}
+							});
+						}, { rootMargin: '200px 0px 200px 0px' } );
+						lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+							lazyloadBackgroundObserver.observe( lazyloadBackground );
+						} );
+					};
+					const events = [
+						'DOMContentLoaded',
+						'elementor/lazyload/observe',
+					];
+					events.forEach( ( event ) => {
+						document.addEventListener( event, lazyloadRunObserver );
+					} );
+				} )();
+			</script>
+			<script id="hello-theme-frontend-js" src="https://masailandsafari.com/wp-content/themes/hello-elementor/assets/js/hello-frontend.js?ver=3.4.9"></script>
+<script id="elementor-webpack-runtime-js" src="https://masailandsafari.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=4.2.1"></script>
+<script id="elementor-frontend-modules-js" src="https://masailandsafari.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=4.2.1"></script>
+<script id="jquery-ui-core-js" src="https://masailandsafari.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3"></script>
+<script id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnX":"Share on X","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},"hasCustomBreakpoints":false},"version":"4.2.1","is_static":false,"experimentalFeatures":{"additional_custom_breakpoints":true,"container":true,"e_panel_promotions":true,"theme_builder_v2":true,"hello-theme-header-footer":true,"nested-elements":true,"global_classes_should_enforce_capabilities":true,"e_variables":true,"e_opt_in_v4_page":true,"e_components":true,"e_interactions":true,"e_widget_creation":true,"import-export-customization":true,"e_pro_atomic_form":true,"e_pro_collection_loop":true,"e_pro_variables":true,"e_pro_interactions":true},"urls":{"assets":"https:\/\/masailandsafari.com\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"https:\/\/masailandsafari.com\/wp-admin\/admin-ajax.php","uploadUrl":"https:\/\/masailandsafari.com\/wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"71a8479cb7","atomicFormsSendForm":"274770c4a6"},"swiperClass":"swiper","settings":{"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","hello_header_logo_type":"title","hello_header_menu_layout":"horizontal","hello_footer_logo_type":"logo"},"post":{"id":0,"title":"Page not found &#8211; Masailand Safari &amp; Lodge","excerpt":""}};
+//# sourceURL=elementor-frontend-js-before
+</script>
+<script id="elementor-frontend-js" src="https://masailandsafari.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.2.1"></script>
+<script id="smartmenus-js" src="https://masailandsafari.com/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.2.1"></script>
+<script id="e-sticky-js" src="https://masailandsafari.com/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=4.2.1"></script>
+<script id="smush-lazy-load-js-before">
+var smushLazyLoadOptions = {"autoResizingEnabled":false,"autoResizeOptions":{"precision":5,"skipAutoWidth":true}};
+//# sourceURL=smush-lazy-load-js-before
+</script>
+<script id="smush-lazy-load-js" src="https://masailandsafari.com/wp-content/plugins/wp-smushit/app/assets/js/smush-lazy-load.min.js?ver=4.2.0"></script>
+<script id="litepicker-js" src="https://masailandsafari.com/wp-content/plugins/cavo_maris/litepicker.js?ver=7.0.2"></script>
+<script id="booking_widget_script-js" src="https://masailandsafari.com/wp-content/plugins/cavo_maris/booking.js?ver=7.0.2"></script>
+<script id="elementor-pro-webpack-runtime-js" src="https://masailandsafari.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=4.2.1"></script>
+<script id="wp-hooks-js" src="https://masailandsafari.com/wp-includes/js/dist/hooks.min.js?ver=7496969728ca0f95732d"></script>
+<script id="wp-i18n-js" src="https://masailandsafari.com/wp-includes/js/dist/i18n.min.js?ver=781d11515ad3d91786ec"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="elementor-pro-frontend-js-before">
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/masailandsafari.com\/wp-admin\/admin-ajax.php","nonce":"6026e1d8a4","urls":{"assets":"https:\/\/masailandsafari.com\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/masailandsafari.com\/wp-json\/"},"settings":{"lazy_load_background_images":true},"popup":{"hasPopUps":true},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/masailandsafari.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+//# sourceURL=elementor-pro-frontend-js-before
+</script>
+<script id="elementor-pro-frontend-js" src="https://masailandsafari.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=4.2.1"></script>
+<script id="pro-elements-handlers-js" src="https://masailandsafari.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=4.2.1"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://masailandsafari.com/wp-includes/js/wp-emoji-release.min.js?ver=7.0.2"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+//# sourceURL=https://masailandsafari.com/wp-includes/js/wp-emoji-loader.min.js
+</script>
+
+</body>
+</html>
+<!--
+Performance optimized by Redis Object Cache. Learn more: https://wprediscache.com
+
+Retrieved 3687 objects (1 MB) from Redis using PhpRedis (v5.3.7).
+-->
+
